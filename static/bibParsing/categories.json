@@ -1,0 +1,37 @@
+{
+    "Representation":{
+        "ContactMap": "CM",
+        "ParameterBased": "PP",
+        "OtherRepresentation": "OR",
+        "ConditioningRepresentation": "CG"
+    },
+
+    "Backbone Architecture":{
+        "Transformer": "TR",
+        "Diffusion" : "DI",
+        "AutoEncoder": "AE",
+        "OtherArchitecture": "OA"
+    },
+
+    "Optimization and Training":{
+        "Metric Losses": "ML",
+        "Filtering and Discriminators": "FI",
+        "Energy-based Methods": "EB"
+    },
+
+    "Benchmarks":{
+        "Chamfer Loss": "Chamfer",
+        "FID": "FID",
+        "Diversity": "Diversity",
+        "Qualitative": "Qual",
+        "Q1 (Max Wrench Metric)": "Q1",
+        "Penetration Distance": "PenDist",
+        "Intersection Penetration Volume": "InterPenVol",
+        "Success Rate": "SuccessR",
+        "Mean Per Joint Position Error": "MPJPE",
+        "Mean Relative Root Position Error": "MRRPE",
+        "Simulated Displacement": "SimDisp",
+        "Contact Distance": "ContactD",
+        "Contact Ratio": "ContactR"
+    }
+}

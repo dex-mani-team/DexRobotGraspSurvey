@@ -1,0 +1,1848 @@
+{
+    "nodes": [
+        {
+            "id": "CM",
+            "label": "ContactMap",
+            "color": "#fcc737",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "PP",
+            "label": "ParameterBased",
+            "color": "#fcc737",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "OR",
+            "label": "OtherRepresentation",
+            "color": "#fcc737",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "CG",
+            "label": "ConditioningRepresentation",
+            "color": "#fcc737",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "TR",
+            "label": "Transformer",
+            "color": "#FFA09B",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "DI",
+            "label": "Diffusion",
+            "color": "#FFA09B",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "AE",
+            "label": "AutoEncoder",
+            "color": "#FFA09B",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "OA",
+            "label": "OtherArchitecture",
+            "color": "#FFA09B",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "ML",
+            "label": "Metric Losses",
+            "color": "#e73879",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "FI",
+            "label": "Filtering and Discriminators",
+            "color": "#e73879",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "EB",
+            "label": "Energy-based Methods",
+            "color": "#e73879",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "Chamfer",
+            "label": "Chamfer Loss",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "FID",
+            "label": "FID",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "Diversity",
+            "label": "Diversity",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "Qual",
+            "label": "Qualitative",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "Q1",
+            "label": "Q1 (Max Wrench Metric)",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "PenDist",
+            "label": "Penetration Distance",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "InterPenVol",
+            "label": "Intersection Penetration Volume",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "SuccessR",
+            "label": "Success Rate",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "MPJPE",
+            "label": "Mean Per Joint Position Error",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "MRRPE",
+            "label": "Mean Relative Root Position Error",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "SimDisp",
+            "label": "Simulated Displacement",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "ContactD",
+            "label": "Contact Distance",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "ContactR",
+            "label": "Contact Ratio",
+            "color": "#D1F8EF",
+            "shape": "box",
+            "font": {
+                "size": 30
+            },
+            "group": "tag"
+        },
+        {
+            "id": "RegionGrasp",
+            "label": "RegionGrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "NL2Contact",
+            "label": "NL2Contact",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "ContactOpt",
+            "label": "ContactOpt",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "Hand-ObjectContactConsistency",
+            "label": "Hand-ObjectContactConsistency",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "GrainGrasp",
+            "label": "GrainGrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "ContactGen",
+            "label": "ContactGen",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "ContactGrasp",
+            "label": "ContactGrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "GenDexGrasp",
+            "label": "GenDexGrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "UniDexGrasp",
+            "label": "UniDexGrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "RealDex",
+            "label": "RealDex",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "DexGraspNet",
+            "label": "DexGraspNet",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "DexGraspDiffusion",
+            "label": "DexGraspDiffusion",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "SceneDiffuser",
+            "label": "SceneDiffuser",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "DexDiffuser",
+            "label": "DexDiffuser",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "DexTOG",
+            "label": "DexTOG",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "Text2Grasp",
+            "label": "Text2Grasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "MultiGraspLLM",
+            "label": "MultiGraspLLM",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "GraspAsYouSay",
+            "label": "GraspAsYouSay",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "SemGrasp",
+            "label": "SemGrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "GHOP",
+            "label": "GHOP",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "GraspingField",
+            "label": "GraspingField",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "DROGrasp",
+            "label": "DROGrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "TowardHumanLikeSem",
+            "label": "TowardHumanLikeSem",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "FunctionalGrasp",
+            "label": "FunctionalGrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "DiffForceClosure",
+            "label": "DiffForceClosure",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "DiffH20",
+            "label": "DiffH20",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "bao2023dexart",
+            "label": "bao2023dexart",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "xu2023unidexgrasp++",
+            "label": "xu2023unidexgrasp++",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "huang2024efficient",
+            "label": "huang2024efficient",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "niekum2024demostart",
+            "label": "niekum2024demostart",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "ross2011reduction",
+            "label": "ross2011reduction",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "chen2023visual",
+            "label": "chen2023visual",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "dexterous_pregrasp_diffusion",
+            "label": "dexterous_pregrasp_diffusion",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "yuan2024crossdex",
+            "label": "yuan2024crossdex",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "lum2024dextrahg",
+            "label": "lum2024dextrahg",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "mandikal2021graff",
+            "label": "mandikal2021graff",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "qin2022dexpoint",
+            "label": "qin2022dexpoint",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "mandikal2023dexterous",
+            "label": "mandikal2023dexterous",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "christen2022dgrasp",
+            "label": "christen2022dgrasp",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "PlanningOptimalGrasps",
+            "label": "PlanningOptimalGrasps",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "nichol2022pointegenerating3dpoint",
+            "label": "nichol2022pointegenerating3dpoint",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        },
+        {
+            "id": "heusel2018ganstrainedtimescaleupdate",
+            "label": "heusel2018ganstrainedtimescaleupdate",
+            "color": "#FFE6C9",
+            "shape": "ellipse",
+            "font": {
+                "size": 20
+            },
+            "group": "citation"
+        }
+    ],
+    "edges": [
+        {
+            "from": "RegionGrasp",
+            "to": "ContactR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RegionGrasp",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "TR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "ContactR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "DI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "InterPenvol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "MPJPE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "NL2Contact",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactOpt",
+            "to": "ContactR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactOpt",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactOpt",
+            "to": "ContactD",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactOpt",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactOpt",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactOpt",
+            "to": "MPJPE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactOpt",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactOpt",
+            "to": "OR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "ContactR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "ContactD",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Hand-ObjectContactConsistency",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "EB",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GrainGrasp",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "ContactR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "Chamfer",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGen",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGrasp",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGrasp",
+            "to": "OA",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGrasp",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGrasp",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGrasp",
+            "to": "FI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "ContactGrasp",
+            "to": "ContactD",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GenDexGrasp",
+            "to": "EB",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GenDexGrasp",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GenDexGrasp",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GenDexGrasp",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GenDexGrasp",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GenDexGrasp",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "UniDexGrasp",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "UniDexGrasp",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "UniDexGrasp",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "UniDexGrasp",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "UniDexGrasp",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "MPJPE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "FI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "RealDex",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspNet",
+            "to": "EB",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspNet",
+            "to": "Q1",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspNet",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspNet",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspNet",
+            "to": "FI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspNet",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspDiffusion",
+            "to": "DI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspDiffusion",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspDiffusion",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspDiffusion",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspDiffusion",
+            "to": "FI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspDiffusion",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexGraspDiffusion",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SceneDiffuser",
+            "to": "DI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SceneDiffuser",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SceneDiffuser",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SceneDiffuser",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SceneDiffuser",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexDiffuser",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexDiffuser",
+            "to": "DI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexDiffuser",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexDiffuser",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexDiffuser",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexDiffuser",
+            "to": "FI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexDiffuser",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexTOG",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexTOG",
+            "to": "DI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexTOG",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexTOG",
+            "to": "Q1",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexTOG",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexTOG",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexTOG",
+            "to": "FI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DexTOG",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "TR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "DI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "Text2Grasp",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "MultiGraspLLM",
+            "to": "TR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "MultiGraspLLM",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "MultiGraspLLM",
+            "to": "Q1",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "MultiGraspLLM",
+            "to": "Chamfer",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "MultiGraspLLM",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "MultiGraspLLM",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "MultiGraspLLM",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "TR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "Q1",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "FID",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspAsYouSay",
+            "to": "ContactD",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "TR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "SimpDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "FID",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "SemGrasp",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "ContactR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "DI",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "Chamfer",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "MPJPE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "OR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GHOP",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "ContactR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "MRRPE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "InterPenVol",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "Chamfer",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "MPJPE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "PenDist",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "OR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "GraspingField",
+            "to": "SimDisp",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DROGrasp",
+            "to": "TR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DROGrasp",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DROGrasp",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DROGrasp",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DROGrasp",
+            "to": "OR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DROGrasp",
+            "to": "AE",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "TowardHumanLikeSem",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "TowardHumanLikeSem",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "TowardHumanLikeSem",
+            "to": "OA",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "TowardHumanLikeSem",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "TowardHumanLikeSem",
+            "to": "Qual",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "TowardHumanLikeSem",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "FunctionalGrasp",
+            "to": "ML",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "FunctionalGrasp",
+            "to": "CG",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "FunctionalGrasp",
+            "to": "OA",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "FunctionalGrasp",
+            "to": "CM",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "FunctionalGrasp",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "FunctionalGrasp",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DiffForceClosure",
+            "to": "EB",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DiffForceClosure",
+            "to": "Diversity",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DiffForceClosure",
+            "to": "PP",
+            "color": "#1d1616",
+            "arrows": "to"
+        },
+        {
+            "from": "DiffForceClosure",
+            "to": "SuccessR",
+            "color": "#1d1616",
+            "arrows": "to"
+        }
+    ]
+}

@@ -1,0 +1,2092 @@
+{
+    "bicchi2000robotic": {
+        "type": "article",
+        "title": "Robotic grasping and contact: A review",
+        "author": "Bicchi, Antonio and Kumar, Vijay",
+        "year": "2000",
+        "journal": "Proceedings of IEEE ICRA",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "jian2025gdexgraspgeneralizabledexterousgrasping": {
+        "type": "misc",
+        "title": "G-DexGrasp: Generalizable Dexterous Grasping Synthesis Via Part-Aware Prior Retrieval and Prior-Assisted Generation",
+        "author": "Juntao Jian and Xiuping Liu and Zixuan Chen and Manyi Li and Jian Liu and Ruizhen Hu",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2503.19457",
+        "tags": []
+    },
+    "kamalaruban2019interactiveteachingalgorithmsinverse": {
+        "type": "misc",
+        "title": "Interactive Teaching Algorithms for Inverse Reinforcement Learning",
+        "author": "Parameswaran Kamalaruban and Rati Devidze and Volkan Cevher and Adish Singla",
+        "year": "2019",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1905.11867",
+        "tags": []
+    },
+    "yu2022surprisingeffectivenessppocooperative": {
+        "type": "misc",
+        "title": "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",
+        "author": "Chao Yu and Akash Velu and Eugene Vinitsky and Jiaxuan Gao and Yu Wang and Alexandre Bayen and Yi Wu",
+        "year": "2022",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2103.01955",
+        "tags": []
+    },
+    "zhong2025dexgraspvla": {
+        "type": "misc",
+        "title": "DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping",
+        "author": "Yifan Zhong and Xuchuan Huang and Ruochong Li and Ceyao Zhang and Yitao Liang and Yaodong Yang and Yuanpei Chen",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2502.20900",
+        "tags": []
+    },
+    "zhong2025dexgraspanythinguniversalrobotic": {
+        "type": "misc",
+        "title": "DexGrasp Anything: Towards Universal Robotic Dexterous Grasping with Physics Awareness",
+        "author": "Yiming Zhong and Qi Jiang and Jingyi Yu and Yuexin Ma",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2503.08257",
+        "tags": []
+    },
+    "shi2025learningadaptivedexterousgrasping": {
+        "type": "misc",
+        "title": "Learning Adaptive Dexterous Grasping from Single Demonstrations",
+        "author": "Liangzhi Shi and Yulin Liu and Lingqi Zeng and Bo Ai and Zhengdong Hong and Hao Su",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2503.20208",
+        "tags": []
+    },
+    "swamy2022causalimitationlearningtemporally": {
+        "type": "misc",
+        "title": "Causal Imitation Learning under Temporally Correlated Noise",
+        "author": "Gokul Swamy and Sanjiban Choudhury and J. Andrew Bagnell and Zhiwei Steven Wu",
+        "year": "2022",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2202.01312",
+        "tags": []
+    },
+    "pinto2015supersizingselfsupervisionlearninggrasp": {
+        "type": "misc",
+        "title": "Supersizing Self-supervision: Learning to Grasp from 50K Tries and 700 Robot Hours",
+        "author": "Lerrel Pinto and Abhinav Gupta",
+        "year": "2015",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1509.06825",
+        "tags": []
+    },
+    "baghbahari2019graspingusingtactilesensing": {
+        "type": "misc",
+        "title": "Grasping Using Tactile Sensing and Deep Calibration",
+        "author": "Masoud Baghbahari and Aman Behal",
+        "year": "2019",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1907.09656",
+        "tags": []
+    },
+    "saloutos2023robustautonomousgraspingreflexes": {
+        "type": "misc",
+        "title": "Towards Robust Autonomous Grasping with Reflexes Using High-Bandwidth Sensing and Actuation",
+        "author": "Andrew SaLoutos and Hongmin Kim and Elijah Stanger-Jones and Menglong Guo and Sangbae Kim",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2209.11367",
+        "tags": []
+    },
+    "zhang2024graspxl": {
+        "type": "inproceedings",
+        "title": "{GraspXL",
+        "author": "Zhang, Hui and Christen, Sammy and Fan, Zicong and Hilliges, Otmar and Song, Jie",
+        "year": "2024",
+        "journal": "European Conference on Computer Vision (ECCV)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "wan2023unidexgrasp++": {
+        "type": "article",
+        "title": "UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning",
+        "author": "Wan, Weikang and Geng, Haoran and Liu, Yun and Shan, Zikang and Yang, Yaodong and Yi, Li and Wang, He",
+        "year": "2023",
+        "journal": "arXiv preprint arXiv:2304.00464",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "bauza2024demostartdemonstrationledautocurriculumapplied": {
+        "type": "misc",
+        "title": "DemoStart: Demonstration-led auto-curriculum applied to sim-to-real with multi-fingered robots",
+        "author": "Maria Bauza and Jose Enrique Chen and Valentin Dalibard and Nimrod Gileadi and Roland Hafner and Murilo F. Martins and Joss Moore and Rugile Pevceviciute and Antoine Laurens and Dushyant Rao and Martina Zambelli and Martin Riedmiller and Jon Scholz and Konstantinos Bousmalis and Francesco Nori and Nicolas Heess",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2409.06613",
+        "tags": []
+    },
+    "zhao2024alohaunleashed": {
+        "type": "inproceedings",
+        "title": "ALOHA Unleashed: A Simple Recipe for Robot Dexterity",
+        "author": "Zhao, Tony Z. and Tompson, Jonathan and Driess, Danny and Florence, Pete and Ghasemipour, Seyed Kamyar Seyed and Finn, Chelsea and Wahid, Ayzaan",
+        "year": "2025",
+        "journal": "Proceedings of The 8th Conference on Robot Learning",
+        "doi": "",
+        "url": "https://proceedings.mlr.press/v270/zhao25b.html",
+        "tags": []
+    },
+    "hang2024dexfuncgrasp": {
+        "type": "inproceedings",
+        "title": "DexFuncGrasp: A Robotic Dexterous Functional Grasp Dataset Constructed from a Cost-Effective Real-Simulation Annotation System.",
+        "author": "Hang, Jinglue and Lin, Xiangbo and Zhu, Tianqiang and Li, Xuanheng and Wu, Rina and Ma, Xiaohong and Sun, Yi",
+        "year": "2024",
+        "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "ross2011reductionimitationlearningstructured": {
+        "type": "misc",
+        "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+        "author": "Stephane Ross and Geoffrey J. Gordon and J. Andrew Bagnell",
+        "year": "2011",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1011.0686",
+        "tags": []
+    },
+    "mandikal2021graff": {
+        "type": "inproceedings",
+        "title": "Learning Dexterous Grasping with Object-Centric Visual Affordances",
+        "author": "Mandikal, Priyanka and Grauman, Kristen",
+        "year": "2021",
+        "journal": "IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "huang2025fungrasp": {
+        "type": "article",
+        "title": "FunGrasp: Functional Grasping for Diverse Dexterous Hands",
+        "author": "Huang, Linyi and Zhang, Hui and Wu, Zijian and Christen, Sammy and Song, Jie",
+        "year": "2025",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "wu2024dexterousfunctionalpregraspmanipulation": {
+        "type": "misc",
+        "title": "Dexterous Functional Pre-Grasp Manipulation with Diffusion Policy",
+        "author": "Tianhao Wu and Yunchong Gan and Mingdong Wu and Jingbo Cheng and Yaodong Yang and Yixin Zhu and Hao Dong",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2403.12421",
+        "tags": []
+    },
+    "bao2023dexartbenchmarkinggeneralizabledexterous": {
+        "type": "misc",
+        "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with Articulated Objects",
+        "author": "Chen Bao and Helin Xu and Yuzhe Qin and Xiaolong Wang",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2305.05706",
+        "tags": []
+    },
+    "Romero_2017": {
+        "type": "article",
+        "title": "Embodied hands: modeling and capturing hands and bodies together",
+        "author": "Romero, Javier and Tzionas, Dimitrios and Black, Michael J.",
+        "year": "2017",
+        "journal": "ACM Transactions on Graphics",
+        "doi": "",
+        "url": "http://dx.doi.org/10.1145/3130800.3130883",
+        "tags": []
+    },
+    "agarwal2023dexterous": {
+        "type": "article",
+        "title": "Dexterous functional grasping",
+        "author": "Agarwal, Ananye and Uppal, Shagun and Shaw, Kenneth and Pathak, Deepak",
+        "year": "2023",
+        "journal": "arXiv preprint arXiv:2312.02975",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "wei2025mathcaldrograspunifiedrepresentation": {
+        "type": "misc",
+        "title": "$\\mathcal{D(R,O)",
+        "author": "Zhenyu Wei and Zhixuan Xu and Jingxiang Guo and Yiwen Hou and Chongkai Gao and Zhehao Cai and Jiayu Luo and Lin Shao",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2410.01702",
+        "tags": []
+    },
+    "hu2021loralowrankadaptationlarge": {
+        "type": "misc",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+        "author": "Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen",
+        "year": "2021",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2106.09685",
+        "tags": []
+    },
+    "9156512": {
+        "type": "INPROCEEDINGS",
+        "title": "GanHand: Predicting Human Grasp Affordances in Multi-Object Scenes",
+        "author": "Corona, Enric and Pumarola, Albert and Aleny\u00e0, Guillem and Moreno-Noguer, Francesc and Rogez, Gr\u00e9gory",
+        "year": "2020",
+        "journal": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "10.1109/CVPR42600.2020.00508",
+        "url": "",
+        "tags": []
+    },
+    "schulman2017proximalpolicyoptimizationalgorithms": {
+        "type": "misc",
+        "title": "Proximal Policy Optimization Algorithms",
+        "author": "John Schulman and Filip Wolski and Prafulla Dhariwal and Alec Radford and Oleg Klimov",
+        "year": "2017",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1707.06347",
+        "tags": []
+    },
+    "haarnoja2018softactorcriticoffpolicymaximum": {
+        "type": "misc",
+        "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+        "author": "Tuomas Haarnoja and Aurick Zhou and Pieter Abbeel and Sergey Levine",
+        "year": "2018",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1801.01290",
+        "tags": []
+    },
+    "ijcai2024p758": {
+        "type": "inproceedings",
+        "title": "RealDex: Towards Human-like Grasping for Robotic Dexterous Hand",
+        "author": "Liu, Yumeng and Yang, Yaxun and Wang, Youzhuo and Wu, Xiaofei and Wang, Jiamin and Yao, Yichen and Schwertfeger, S\u00f6ren and Yang, Sibei and Wang, Wenping and Yu, Jingyi and He, Xuming and Ma, Yuexin",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "10.24963/ijcai.2024/758",
+        "url": "https://doi.org/10.24963/ijcai.2024/758",
+        "tags": []
+    },
+    "qi2025humangraspgenerationrigid": {
+        "type": "misc",
+        "title": "Human Grasp Generation for Rigid and Deformable Objects with Decomposed VQ-VAE",
+        "author": "Mengshi Qi and Zhe Zhao and Huadong Ma",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2501.05483",
+        "tags": []
+    },
+    "oord2018neuraldiscreterepresentationlearning": {
+        "type": "misc",
+        "title": "Neural Discrete Representation Learning",
+        "author": "Aaron van den Oord and Oriol Vinyals and Koray Kavukcuoglu",
+        "year": "2018",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1711.00937",
+        "tags": []
+    },
+    "andrychowicz2020learning": {
+        "type": "article",
+        "title": "Learning dexterous in-hand manipulation",
+        "author": "Andrychowicz, OpenAI: Marcin and Baker, Bowen and Chociej, Maciek and Jozefowicz, Rafal and McGrew, Bob and Pachocki, Jakub and Petron, Arthur and Plappert, Matthias and Powell, Glenn and Ray, Alex and others",
+        "year": "2020",
+        "journal": "The International Journal of Robotics Research",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "lillicrap2015continuous": {
+        "type": "article",
+        "title": "Continuous control with deep reinforcement learning",
+        "author": "Lillicrap, Timothy P and Hunt, Jonathan J and Pritzel, Alexander and Heess, Nicolas and Erez, Tom and Tassa, Yuval and Silver, David and Wierstra, Daan",
+        "year": "2015",
+        "journal": "arXiv preprint arXiv:1509.02971",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "popov2017data": {
+        "type": "article",
+        "title": "Data-efficient deep reinforcement learning for dexterous manipulation",
+        "author": "Popov, Ivaylo and Heess, Nicolas and Lillicrap, Timothy and Hafner, Roland and Barth-Maron, Gabriel and Vecerik, Matej and Lampe, Thomas and Tassa, Yuval and Erez, Tom and Riedmiller, Martin",
+        "year": "2017",
+        "journal": "arXiv preprint arXiv:1704.03073",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zeng2018learning": {
+        "type": "inproceedings",
+        "title": "Learning synergies between pushing and grasping with self-supervised deep reinforcement learning",
+        "author": "Zeng, Andy and Song, Shuran and Welker, Stefan and Lee, Johnny and Rodriguez, Alberto and Funkhouser, Thomas",
+        "year": "2018",
+        "journal": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zhu2019dexterous": {
+        "type": "inproceedings",
+        "title": "Dexterous manipulation with deep reinforcement learning: Efficient, general, and low-cost",
+        "author": "Zhu, Henry and Gupta, Abhishek and Rajeswaran, Aravind and Levine, Sergey and Kumar, Vikash",
+        "year": "2019",
+        "journal": "2019 International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "gupta2016learning": {
+        "type": "inproceedings",
+        "title": "Learning dexterous manipulation for a soft robotic hand from human demonstrations",
+        "author": "Gupta, Abhishek and Eppner, Clemens and Levine, Sergey and Abbeel, Pieter",
+        "year": "2016",
+        "journal": "2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "kumar2016optimal": {
+        "type": "inproceedings",
+        "title": "Optimal control with learned local models: Application to dexterous manipulation",
+        "author": "Kumar, Vikash and Todorov, Emanuel and Levine, Sergey",
+        "year": "2016",
+        "journal": "2016 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "nagabandi2020deep": {
+        "type": "inproceedings",
+        "title": "Deep dynamics models for learning dexterous manipulation",
+        "author": "Nagabandi, Anusha and Konolige, Kurt and Levine, Sergey and Kumar, Vikash",
+        "year": "2020",
+        "journal": "Conference on robot learning",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "omer2021model": {
+        "type": "inproceedings",
+        "title": "Model predictive-actor critic reinforcement learning for dexterous manipulation",
+        "author": "Omer, Muhammad and Ahmed, Rami and Rosman, Benjamin and Babikir, Sharief F",
+        "year": "2021",
+        "journal": "2020 International Conference on Computer, Control, Electrical, and Electronics Engineering (ICCCEEE)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "turpin2022grasp": {
+        "type": "inproceedings",
+        "title": "Grasp\u2019D: Differentiable Contact-Rich Grasp Synthesis for Multi-Fingered Hands",
+        "author": "Turpin, Dylan and Wang, Liquan and Heiden, Eric and Chen, Yun-Chun and Macklin, Miles and Tsogkas, Stavros and Dickinson, Sven and Garg, Animesh",
+        "year": "2022",
+        "journal": "European Conference on Computer Vision",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "turpin2023fast": {
+        "type": "inproceedings",
+        "title": "Fast-grasp'd: Dexterous multi-finger grasp generation through differentiable simulation",
+        "author": "Turpin, Dylan and Zhong, Tao and Zhang, Shutong and Zhu, Guanglei and Heiden, Eric and Macklin, Miles and Tsogkas, Stavros and Dickinson, Sven and Garg, Animesh",
+        "year": "2023",
+        "journal": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "li2023gendexgrasp": {
+        "type": "inproceedings",
+        "title": "Gendexgrasp: Generalizable dexterous grasping",
+        "author": "Li, Puhao and Liu, Tengyu and Li, Yuyang and Geng, Yiran and Zhu, Yixin and Yang, Yaodong and Huang, Siyuan",
+        "year": "2023",
+        "journal": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "wang2023dexgraspnet": {
+        "type": "inproceedings",
+        "title": "Dexgraspnet: A large-scale robotic dexterous grasp dataset for general objects based on simulation",
+        "author": "Wang, Ruicheng and Zhang, Jialiang and Chen, Jiayi and Xu, Yinzhen and Li, Puhao and Liu, Tengyu and Wang, He",
+        "year": "2023",
+        "journal": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zhang2024dexgraspnet": {
+        "type": "inproceedings",
+        "title": "DexGraspNet 2.0: Learning Generative Dexterous Grasping in Large-scale Synthetic Cluttered Scenes",
+        "author": "Zhang, Jialiang and Liu, Haoran and Li, Danshi and Yu, XinQiang and Geng, Haoran and Ding, Yufei and Chen, Jiayi and Wang, He",
+        "year": "2024",
+        "journal": "8th Annual Conference on Robot Learning",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "chen2024task": {
+        "type": "inproceedings",
+        "title": "Task-Oriented Dexterous Hand Pose Synthesis Using Differentiable Grasp Wrench Boundary Estimator",
+        "author": "Chen, Jiayi and Chen, Yuxing and Zhang, Jialiang and Wang, He",
+        "year": "2024",
+        "journal": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "liu2020deep": {
+        "type": "article",
+        "title": "Deep differentiable grasp planner for high-dof grippers",
+        "author": "Liu, Min and Pan, Zherong and Xu, Kai and Ganguly, Kanishka and Manocha, Dinesh",
+        "year": "2020",
+        "journal": "arXiv preprint arXiv:2002.01530",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "liu2021synthesizing": {
+        "type": "article",
+        "title": "Synthesizing diverse and physically stable grasps with arbitrary hand structures using differentiable force closure estimator",
+        "author": "Liu, Tengyu and Liu, Zeyu and Jiao, Ziyuan and Zhu, Yixin and Zhu, Song-Chun",
+        "year": "2021",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "xu2024dipgrasp": {
+        "type": "article",
+        "title": "DiPGrasp: Parallel local searching for efficient differentiable grasp planning",
+        "author": "Xu, Wenqiang and Zhang, Jieyi and Tang, Tutian and Yu, Zhenjun and Li, Yutong and Lu, Cewu",
+        "year": "2024",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zhang2024multi": {
+        "type": "article",
+        "title": "Multi-fingered robotic hand grasping in cluttered environments through hand-object contact semantic mapping",
+        "author": "Zhang, Lei and Bai, Kaixin and Huang, Guowen and Bing, Zhenshan and Chen, Zhaopeng and Knoll, Alois and Zhang, Jianwei",
+        "year": "2024",
+        "journal": "arXiv preprint arXiv:2404.08844",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "li2024grasp": {
+        "type": "article",
+        "title": "Grasp multiple objects with one hand",
+        "author": "Li, Yuyang and Liu, Bo and Geng, Yiran and Li, Puhao and Yang, Yaodong and Zhu, Yixin and Liu, Tengyu and Huang, Siyuan",
+        "year": "2024",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "1371616": {
+        "type": "article",
+        "title": "Graspit! A versatile simulator for robotic grasping",
+        "author": "Miller, A.T. and Allen, P.K.",
+        "year": "2004",
+        "journal": "IEEE Robotics & Automation Magazine",
+        "doi": "10.1109/MRA.2004.1371616",
+        "url": "",
+        "tags": []
+    },
+    "ciocarlie2007dexterous": {
+        "type": "inproceedings",
+        "title": "Dexterous grasping via eigengrasps: A low-dimensional approach to a high-complexity problem",
+        "author": "Ciocarlie, Matei and Goldfeder, Corey and Allen, Peter",
+        "year": "2007",
+        "journal": "Robotics: Science and systems manipulation workshop-sensing and adapting to the real world",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "5152709": {
+        "type": "INPROCEEDINGS",
+        "title": "The Columbia grasp database",
+        "author": "Goldfeder, Corey and Ciocarlie, Matei and Hao Dang and Allen, Peter K.",
+        "year": "2009",
+        "journal": "2009 IEEE International Conference on Robotics and Automation",
+        "doi": "10.1109/ROBOT.2009.5152709",
+        "url": "",
+        "tags": []
+    },
+    "lundell2021ddgc": {
+        "type": "article",
+        "title": "Ddgc: Generative deep dexterous grasping in clutter",
+        "author": "Lundell, Jens and Verdoja, Francesco and Kyrki, Ville",
+        "year": "2021",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "hasson2019learning": {
+        "type": "inproceedings",
+        "title": "Learning joint reconstruction of hands and manipulated objects",
+        "author": "Hasson, Yana and Varol, Gul and Tzionas, Dimitrios and Kalevatykh, Igor and Black, Michael J and Laptev, Ivan and Schmid, Cordelia",
+        "year": "2019",
+        "journal": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "casas2024multigrippergrasp": {
+        "type": "inproceedings",
+        "title": "Multigrippergrasp: A dataset for robotic grasping from parallel jaw grippers to dexterous hands",
+        "author": "Casas, Luis Felipe and Khargonkar, Ninad and Prabhakaran, Balakrishnan and Xiang, Yu",
+        "year": "2024",
+        "journal": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "li2022hgc": {
+        "type": "inproceedings",
+        "title": "HGC-Net: Deep anthropomorphic hand grasping in clutter",
+        "author": "Li, Yiming and Wei, Wei and Li, Daheng and Wang, Peng and Li, Wanyi and Zhong, Jun",
+        "year": "2022",
+        "journal": "2022 International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "shao2024bimanual": {
+        "type": "article",
+        "title": "Bimanual Grasp Synthesis for Dexterous Robot Hands",
+        "author": "Shao, Yanming and Xiao, Chenxi",
+        "year": "2024",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "cho2024dense": {
+        "type": "inproceedings",
+        "title": "Dense Hand-Object (HO) GraspNet with Full Grasping Taxonomy and Dynamics",
+        "author": "Cho, Woojin and Lee, Jihyun and Yi, Minjae and Kim, Minje and Woo, Taeyun and Kim, Donghwan and Ha, Taewook and Lee, Hyokeun and Ryu, Je-Hwan and Woo, Woontack and others",
+        "year": "2024",
+        "journal": "European Conference on Computer Vision",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "yang2022oakink": {
+        "type": "inproceedings",
+        "title": "Oakink: A large-scale knowledge repository for understanding hand-object interaction",
+        "author": "Yang, Lixin and Li, Kailin and Zhan, Xinyu and Wu, Fei and Xu, Anran and Liu, Liu and Lu, Cewu",
+        "year": "2022",
+        "journal": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zhan2024oakink2": {
+        "type": "inproceedings",
+        "title": "Oakink2: A dataset of bimanual hands-object manipulation in complex task completion",
+        "author": "Zhan, Xinyu and Yang, Lixin and Zhao, Yifei and Mao, Kangrui and Xu, Hanlin and Lin, Zenan and Li, Kailin and Lu, Cewu",
+        "year": "2024",
+        "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "taheri2020grab": {
+        "type": "inproceedings",
+        "title": "GRAB: A dataset of whole-body human grasping of objects",
+        "author": "Taheri, Omid and Ghorbani, Nima and Black, Michael J and Tzionas, Dimitrios",
+        "year": "2020",
+        "journal": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part IV 16",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "jian2023affordpose": {
+        "type": "inproceedings",
+        "title": "Affordpose: A large-scale dataset of hand-object interactions with affordance-driven hand pose",
+        "author": "Jian, Juntao and Liu, Xiuping and Li, Manyi and Hu, Ruizhen and Liu, Jian",
+        "year": "2023",
+        "journal": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "fan2023arctic": {
+        "type": "inproceedings",
+        "title": "ARCTIC: A dataset for dexterous bimanual hand-object manipulation",
+        "author": "Fan, Zicong and Taheri, Omid and Tzionas, Dimitrios and Kocabas, Muhammed and Kaufmann, Manuel and Black, Michael J and Hilliges, Otmar",
+        "year": "2023",
+        "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "hampali2020honnotate": {
+        "type": "inproceedings",
+        "title": "Honnotate: A method for 3d annotation of hand and object poses",
+        "author": "Hampali, Shreyas and Rad, Mahdi and Oberweger, Markus and Lepetit, Vincent",
+        "year": "2020",
+        "journal": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "chao2021dexycb": {
+        "type": "inproceedings",
+        "title": "DexYCB: A benchmark for capturing hand grasping of objects",
+        "author": "Chao, Yu-Wei and Yang, Wei and Xiang, Yu and Molchanov, Pavlo and Handa, Ankur and Tremblay, Jonathan and Narang, Yashraj S and Van Wyk, Karl and Iqbal, Umar and Birchfield, Stan and others",
+        "year": "2021",
+        "journal": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "brahmbhatt2020contactpose": {
+        "type": "inproceedings",
+        "title": "ContactPose: A dataset of grasps with object contact and hand pose",
+        "author": "Brahmbhatt, Samarth and Tang, Chengcheng and Twigg, Christopher D and Kemp, Charles C and Hays, James",
+        "year": "2020",
+        "journal": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XIII 16",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "brahmbhatt2019contactdb": {
+        "type": "inproceedings",
+        "title": "Contactdb: Analyzing and predicting grasp contact via thermal imaging",
+        "author": "Brahmbhatt, Samarth and Ham, Cusuh and Kemp, Charles C and Hays, James",
+        "year": "2019",
+        "journal": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "liu2024taco": {
+        "type": "inproceedings",
+        "title": "Taco: Benchmarking generalizable bimanual tool-action-object understanding",
+        "author": "Liu, Yun and Yang, Haolin and Si, Xu and Liu, Ling and Li, Zipeng and Zhang, Yuxiang and Liu, Yebin and Yi, Li",
+        "year": "2024",
+        "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "garcia2018first": {
+        "type": "inproceedings",
+        "title": "First-person hand action benchmark with rgb-d videos and 3d hand pose annotations",
+        "author": "Garcia-Hernando, Guillermo and Yuan, Shanxin and Baek, Seungryul and Kim, Tae-Kyun",
+        "year": "2018",
+        "journal": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "kwon2021h2o": {
+        "type": "inproceedings",
+        "title": "H2o: Two hands manipulating objects for first person interaction recognition",
+        "author": "Kwon, Taein and Tekin, Bugra and St{\\",
+        "year": "2021",
+        "journal": "Proceedings of the IEEE/CVF international conference on computer vision",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "liu2022hoi4d": {
+        "type": "inproceedings",
+        "title": "Hoi4d: A 4d egocentric dataset for category-level human-object interaction",
+        "author": "Liu, Yunze and Liu, Yun and Jiang, Che and Lyu, Kangbo and Wan, Weikang and Shen, Hao and Liang, Boqiang and Fu, Zhoujie and Wang, He and Yi, Li",
+        "year": "2022",
+        "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zhu2021toward": {
+        "type": "inproceedings",
+        "title": "Toward human-like grasp: Dexterous grasping via semantic representation of object-hand",
+        "author": "Zhu, Tianqiang and Wu, Rina and Lin, Xiangbo and Sun, Yi",
+        "year": "2021",
+        "journal": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "wang2024regiongraspnoveltaskcontact": {
+        "type": "misc",
+        "title": "RegionGrasp: A Novel Task for Contact Region Controllable Hand Grasp Generation",
+        "author": "Yilin Wang and Chuan Guo and Li Cheng and Hai Jiang",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2410.07995",
+        "tags": []
+    },
+    "zhang2024nl2contactnaturallanguageguided": {
+        "type": "misc",
+        "title": "NL2Contact: Natural Language Guided 3D Hand-Object Contact Modeling with Diffusion Model",
+        "author": "Zhongqun Zhang and Hengfei Wang and Ziwei Yu and Yihua Cheng and Angela Yao and Hyung Jin Chang",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2407.12727",
+        "tags": []
+    },
+    "grady2021contactoptoptimizingcontactimprove": {
+        "type": "misc",
+        "title": "ContactOpt: Optimizing Contact to Improve Grasps",
+        "author": "Patrick Grady and Chengcheng Tang and Christopher D. Twigg and Minh Vo and Samarth Brahmbhatt and Charles C. Kemp",
+        "year": "2021",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2104.07267",
+        "tags": []
+    },
+    "jiang2021handobjectcontactconsistencyreasoning": {
+        "type": "misc",
+        "title": "Hand-Object Contact Consistency Reasoning for Human Grasps Generation",
+        "author": "Hanwen Jiang and Shaowei Liu and Jiashun Wang and Xiaolong Wang",
+        "year": "2021",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2104.03304",
+        "tags": []
+    },
+    "zhao2024graingraspdexterousgraspgeneration": {
+        "type": "misc",
+        "title": "GrainGrasp: Dexterous Grasp Generation with Fine-grained Contact Guidance",
+        "author": "Fuqiang Zhao and Dzmitry Tsetserukou and Qian Liu",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2405.09310",
+        "tags": []
+    },
+    "liu2023contactgengenerativecontactmodeling": {
+        "type": "misc",
+        "title": "ContactGen: Generative Contact Modeling for Grasp Generation",
+        "author": "Shaowei Liu and Yang Zhou and Jimei Yang and Saurabh Gupta and Shenlong Wang",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2310.03740",
+        "tags": []
+    },
+    "contactGrasp": {
+        "type": "INPROCEEDINGS",
+        "title": "ContactGrasp: Functional Multi-finger Grasp Synthesis from Contact",
+        "author": "Brahmbhatt, Samarth and Handa, Ankur and Hays, James and Fox, Dieter",
+        "year": "2019",
+        "journal": "2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "doi": "10.1109/IROS40897.2019.8967960",
+        "url": "",
+        "tags": []
+    },
+    "li2023gendexgraspgeneralizabledexterousgrasping": {
+        "type": "misc",
+        "title": "GenDexGrasp: Generalizable Dexterous Grasping",
+        "author": "Puhao Li and Tengyu Liu and Yuyang Li and Yiran Geng and Yixin Zhu and Yaodong Yang and Siyuan Huang",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2210.00722",
+        "tags": []
+    },
+    "xu2023unidexgraspuniversalroboticdexterous": {
+        "type": "misc",
+        "title": "UniDexGrasp: Universal Robotic Dexterous Grasping via Learning Diverse Proposal Generation and Goal-Conditioned Policy",
+        "author": "Yinzhen Xu and Weikang Wan and Jialiang Zhang and Haoran Liu and Zikang Shan and Hao Shen and Ruicheng Wang and Haoran Geng and Yijia Weng and Jiayi Chen and Tengyu Liu and Li Yi and He Wang",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2303.00938",
+        "tags": []
+    },
+    "zhang2024dexgraspdiffusiondiffusionbasedunifiedfunctional": {
+        "type": "misc",
+        "title": "DexGrasp-Diffusion: Diffusion-based Unified Functional Grasp Synthesis Method for Multi-Dexterous Robotic Hands",
+        "author": "Zhengshen Zhang and Lei Zhou and Chenchen Liu and Zhiyang Liu and Chengran Yuan and Sheng Guo and Ruiteng Zhao and Marcelo H. Ang Jr. and Francis EH Tay",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2407.09899",
+        "tags": []
+    },
+    "sceneDiffuser": {
+        "type": "misc",
+        "title": "Diffusion-based Generation, Optimization, and Planning in 3D Scenes",
+        "author": "Siyuan Huang and Zan Wang and Puhao Li and Baoxiong Jia and Tengyu Liu and Yixin Zhu and Wei Liang and Song-Chun Zhu",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2301.06015",
+        "tags": []
+    },
+    "weng2024dexdiffusergeneratingdexterousgrasps": {
+        "type": "misc",
+        "title": "DexDiffuser: Generating Dexterous Grasps with Diffusion Models",
+        "author": "Zehang Weng and Haofei Lu and Danica Kragic and Jens Lundell",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2402.02989",
+        "tags": []
+    },
+    "DEXTOG": {
+        "type": "ARTICLE",
+        "title": "DexTOG: Learning Task-Oriented Dexterous Grasp With Language Condition",
+        "author": "Zhang, Jieyi and Xu, Wenqiang and Yu, Zhenjun and Xie, Pengfei and Tang, Tutian and Lu, Cewu",
+        "year": "2025",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "10.1109/LRA.2024.3518116",
+        "url": "",
+        "tags": []
+    },
+    "chang2024text2graspgraspsynthesistext": {
+        "type": "misc",
+        "title": "Text2Grasp: Grasp synthesis by text prompts of object grasping parts",
+        "author": "Xiaoyun Chang and Yi Sun",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2404.15189",
+        "tags": []
+    },
+    "li2025multigraspllmmultimodalllmmultihand": {
+        "type": "misc",
+        "title": "Multi-GraspLLM: A Multimodal LLM for Multi-Hand Semantic Guided Grasp Generation",
+        "author": "Haosheng Li and Weixin Mao and Weipeng Deng and Chenyu Meng and Haoqiang Fan and Tiancai Wang and Ping Tan and Hongan Wang and Xiaoming Deng",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2412.08468",
+        "tags": []
+    },
+    "wei2024graspsaylanguageguideddexterous": {
+        "type": "misc",
+        "title": "Grasp as You Say: Language-guided Dexterous Grasp Generation",
+        "author": "Yi-Lin Wei and Jian-Jian Jiang and Chengyi Xing and Xian-Tuo Tan and Xiao-Ming Wu and Hao Li and Mark Cutkosky and Wei-Shi Zheng",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2405.19291",
+        "tags": []
+    },
+    "li2024semgraspsemanticgraspgeneration": {
+        "type": "misc",
+        "title": "SemGrasp: Semantic Grasp Generation via Language Aligned Discretization",
+        "author": "Kailin Li and Jingbo Wang and Lixin Yang and Cewu Lu and Bo Dai",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2404.03590",
+        "tags": []
+    },
+    "ye2024ghopgenerativehandobjectprior": {
+        "type": "misc",
+        "title": "G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis",
+        "author": "Yufei Ye and Abhinav Gupta and Kris Kitani and Shubham Tulsiani",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2404.12383",
+        "tags": []
+    },
+    "karunratanakul2020graspingfieldlearningimplicit": {
+        "type": "misc",
+        "title": "Grasping Field: Learning Implicit Representations for Human Grasps",
+        "author": "Korrawe Karunratanakul and Jinlong Yang and Yan Zhang and Michael Black and Krikamol Muandet and Siyu Tang",
+        "year": "2020",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2008.04451",
+        "tags": []
+    },
+    "FunctionalGrasp": {
+        "type": "ARTICLE",
+        "title": "FunctionalGrasp: Learning Functional Grasp for Robots via Semantic Hand-Object Representation",
+        "author": "Zhang, Yibiao and Hang, Jinglue and Zhu, Tianqiang and Lin, Xiangbo and Wu, Rina and Peng, Wanli and Tian, Dongying and Sun, Yi",
+        "year": "2023",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "10.1109/LRA.2023.3264760",
+        "url": "",
+        "tags": []
+    },
+    "DiffH20": {
+        "type": "inproceedings",
+        "title": "DiffH2O: Diffusion-Based Synthesis of Hand-Object Interactions from Textual Descriptions",
+        "author": "Christen, Sammy and Hampali, Shreyas and Sener, Fadime and Remelli, Edoardo and Hodan, Tomas and Sauser, Eric and Ma, Shugao and Tekin, Bugra",
+        "year": "2024",
+        "journal": "SIGGRAPH Asia 2024 Conference Papers",
+        "doi": "",
+        "url": "http://dx.doi.org/10.1145/3680528.3687563",
+        "tags": []
+    },
+    "zhong2025dexgrasp": {
+        "type": "article",
+        "title": "DexGrasp Anything: Towards Universal Robotic Dexterous Grasping with Physics Awareness",
+        "author": "Zhong, Yiming and Jiang, Qi and Yu, Jingyi and Ma, Yuexin",
+        "year": "2025",
+        "journal": "arXiv preprint arXiv:2503.08257",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zhu2025evolvinggrasp": {
+        "type": "article",
+        "title": "EvolvingGrasp: Evolutionary Grasp Generation via Efficient Preference Alignment",
+        "author": "Zhu, Yufei and Zhong, Yiming and Yang, Zemin and Cong, Peishan and Yu, Jingyi and Zhu, Xinge and Ma, Yuexin",
+        "year": "2025",
+        "journal": "arXiv preprint arXiv:2503.14329",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "lu2024uggunifiedgenerativegrasping": {
+        "type": "misc",
+        "title": "UGG: Unified Generative Grasping",
+        "author": "Jiaxin Lu and Hao Kang and Haoxiang Li and Bo Liu and Yiding Yang and Qixing Huang and Gang Hua",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2311.16917",
+        "tags": []
+    },
+    "clickdiff": {
+        "type": "inproceedings",
+        "title": "ClickDiff: Click to Induce Semantic Contact Map for Controllable Grasp Generation with Diffusion Models",
+        "author": "Li, Peiming and Wang, Ziyi and Liu, Mengyuan and Liu, Hong and Chen, Chen",
+        "year": "2024",
+        "journal": "Proceedings of the 32nd ACM International Conference on Multimedia",
+        "doi": "",
+        "url": "http://dx.doi.org/10.1145/3664647.3680597",
+        "tags": []
+    },
+    "AffordDexGrasp": {
+        "type": "misc",
+        "title": "AffordDexGrasp: Open-set Language-guided Dexterous Grasp with Generalizable-Instructive Affordance",
+        "author": "Yi-Lin Wei and Mu Lin and Yuhao Lin and Jian-Jian Jiang and Xiao-Ming Wu and Ling-An Zeng and Wei-Shi Zheng",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2503.07360",
+        "tags": []
+    },
+    "zhao2024decomposedvectorquantizedvariationalautoencoder": {
+        "type": "misc",
+        "title": "Decomposed Vector-Quantized Variational Autoencoder for Human Grasp Generation",
+        "author": "Zhe Zhao and Mengshi Qi and Huadong Ma",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2407.14062",
+        "tags": []
+    },
+    "xu2024dexterous": {
+        "type": "inproceedings",
+        "title": "Dexterous grasp transformer",
+        "author": "Xu, Guo-Hao and Wei, Yi-Lin and Zheng, Dian and Wu, Xiao-Ming and Zheng, Wei-Shi",
+        "year": "2024",
+        "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zhong2025gagrasp": {
+        "type": "article",
+        "title": "Gagrasp: Geometric algebra diffusion for dexterous grasping",
+        "author": "Zhong, Tao and Allen-Blanchette, Christine",
+        "year": "2025",
+        "journal": "arXiv preprint arXiv:2503.04123",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "10115005": {
+        "type": "ARTICLE",
+        "title": "Toward Human-Like Grasp: Functional Grasp by Dexterous Robotic Hand Via Object-Hand Semantic Representation",
+        "author": "Zhu, Tianqiang and Wu, Rina and Hang, Jinglue and Lin, Xiangbo and Sun, Yi",
+        "year": "2023",
+        "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "doi": "10.1109/TPAMI.2023.3272571",
+        "url": "",
+        "tags": []
+    },
+    "9636557": {
+        "type": "INPROCEEDINGS",
+        "title": "State-Only Imitation Learning for Dexterous Manipulation",
+        "author": "Radosavovic, Ilija and Wang, Xiaolong and Pinto, Lerrel and Malik, Jitendra",
+        "year": "2021",
+        "journal": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "doi": "10.1109/IROS51168.2021.9636557",
+        "url": "",
+        "tags": []
+    },
+    "qin2022dexmv": {
+        "type": "inproceedings",
+        "title": "Dexmv: Imitation learning for dexterous manipulation from human videos",
+        "author": "Qin, Yuzhe and Wu, Yueh-Hua and Liu, Shaowei and Jiang, Hanwen and Yang, Ruihan and Fu, Yang and Wang, Xiaolong",
+        "year": "2022",
+        "journal": "European Conference on Computer Vision",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "wu2023learning": {
+        "type": "inproceedings",
+        "title": "Learning generalizable dexterous manipulation from human grasp affordance",
+        "author": "Wu, Yueh-Hua and Wang, Jiashun and Wang, Xiaolong",
+        "year": "2023",
+        "journal": "Conference on Robot Learning",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "mousavian20196dofgraspnetvariationalgrasp": {
+        "type": "misc",
+        "title": "6-DOF GraspNet: Variational Grasp Generation for Object Manipulation",
+        "author": "Arsalan Mousavian and Clemens Eppner and Dieter Fox",
+        "year": "2019",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1905.10520",
+        "tags": []
+    },
+    "sundermeyer2021contactgraspnetefficient6dofgrasp": {
+        "type": "misc",
+        "title": "Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes",
+        "author": "Martin Sundermeyer and Arsalan Mousavian and Rudolph Triebel and Dieter Fox",
+        "year": "2021",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2103.14127",
+        "tags": []
+    },
+    "Mahler2016DexNet1A": {
+        "type": "article",
+        "title": "Dex-Net 1.0: A cloud-based network of 3D objects for robust grasp planning using a Multi-Armed Bandit model with correlated rewards",
+        "author": "Jeffrey Mahler and Florian T. Pokorny and Brian Hou and Melrose Roderick and Michael Laskey and Mathieu Aubry and Kai J. Kohlhoff and Torsten Kr{\\",
+        "year": "2016",
+        "journal": "2016 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "https://api.semanticscholar.org/CorpusID:14236715",
+        "tags": []
+    },
+    "bellman1957markovian": {
+        "type": "article",
+        "title": "A Markovian decision process",
+        "author": "Bellman, Richard",
+        "year": "1957",
+        "journal": "Journal of mathematics and mechanics",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "khargonkar2022neuralgraspslearningimplicitrepresentations": {
+        "type": "misc",
+        "title": "Efficient Residual Learning with Mixture-of-Experts for Universal Dexterous Grasping",
+        "author": "Ziye Huang and Haoqi Yuan and Yuhui Fu and Zongqing Lu",
+        "year": "2025",
+        "journal": "The Thirteenth International Conference on Learning Representations",
+        "doi": "",
+        "url": "https://openreview.net/forum?id=BUj9VSCoET",
+        "tags": []
+    },
+    "agarwal2023dexterousfunctionalgrasping": {
+        "type": "misc",
+        "title": "Dexterous Functional Grasping",
+        "author": "Ananye Agarwal and Shagun Uppal and Kenneth Shaw and Deepak Pathak",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2312.02975",
+        "tags": []
+    },
+    "openai2024gpt4technicalreport": {
+        "type": "misc",
+        "title": "GPT-4 Technical Report",
+        "author": "OpenAI and Josh Achiam and Steven Adler and Sandhini Agarwal and Lama Ahmad and Ilge Akkaya and Florencia Leoni Aleman and Diogo Almeida and Janko Altenschmidt and Sam Altman and Shyamal Anadkat and Red Avila and Igor Babuschkin and Suchir Balaji and Valerie Balcom and Paul Baltescu and Haiming Bao and Mohammad Bavarian and Jeff Belgum and Irwan Bello and Jake Berdine and Gabriel Bernadett-Shapiro and Christopher Berner and Lenny Bogdonoff and Oleg Boiko and Madelaine Boyd and Anna-Luisa Brakman and Greg Brockman and Tim Brooks and Miles Brundage and Kevin Button and Trevor Cai and Rosie Campbell and Andrew Cann and Brittany Carey and Chelsea Carlson and Rory Carmichael and Brooke Chan and Che Chang and Fotis Chantzis and Derek Chen and Sully Chen and Ruby Chen and Jason Chen and Mark Chen and Ben Chess and Chester Cho and Casey Chu and Hyung Won Chung and Dave Cummings and Jeremiah Currier and Yunxing Dai and Cory Decareaux and Thomas Degry and Noah Deutsch and Damien Deville and Arka Dhar and David Dohan and Steve Dowling and Sheila Dunning and Adrien Ecoffet and Atty Eleti and Tyna Eloundou and David Farhi and Liam Fedus and Niko Felix and Sim\u00f3n Posada Fishman and Juston Forte and Isabella Fulford and Leo Gao and Elie Georges and Christian Gibson and Vik Goel and Tarun Gogineni and Gabriel Goh and Rapha Gontijo-Lopes and Jonathan Gordon and Morgan Grafstein and Scott Gray and Ryan Greene and Joshua Gross and Shixiang Shane Gu and Yufei Guo and Chris Hallacy and Jesse Han and Jeff Harris and Yuchen He and Mike Heaton and Johannes Heidecke and Chris Hesse and Alan Hickey and Wade Hickey and Peter Hoeschele and Brandon Houghton and Kenny Hsu and Shengli Hu and Xin Hu and Joost Huizinga and Shantanu Jain and Shawn Jain and Joanne Jang and Angela Jiang and Roger Jiang and Haozhun Jin and Denny Jin and Shino Jomoto and Billie Jonn and Heewoo Jun and Tomer Kaftan and \u0141ukasz Kaiser and Ali Kamali and Ingmar Kanitscheider and Nitish Shirish Keskar and Tabarak Khan and Logan Kilpatrick and Jong Wook Kim and Christina Kim and Yongjik Kim and Jan Hendrik Kirchner and Jamie Kiros and Matt Knight and Daniel Kokotajlo and \u0141ukasz Kondraciuk and Andrew Kondrich and Aris Konstantinidis and Kyle Kosic and Gretchen Krueger and Vishal Kuo and Michael Lampe and Ikai Lan and Teddy Lee and Jan Leike and Jade Leung and Daniel Levy and Chak Ming Li and Rachel Lim and Molly Lin and Stephanie Lin and Mateusz Litwin and Theresa Lopez and Ryan Lowe and Patricia Lue and Anna Makanju and Kim Malfacini and Sam Manning and Todor Markov and Yaniv Markovski and Bianca Martin and Katie Mayer and Andrew Mayne and Bob McGrew and Scott Mayer McKinney and Christine McLeavey and Paul McMillan and Jake McNeil and David Medina and Aalok Mehta and Jacob Menick and Luke Metz and Andrey Mishchenko and Pamela Mishkin and Vinnie Monaco and Evan Morikawa and Daniel Mossing and Tong Mu and Mira Murati and Oleg Murk and David M\u00e9ly and Ashvin Nair and Reiichiro Nakano and Rajeev Nayak and Arvind Neelakantan and Richard Ngo and Hyeonwoo Noh and Long Ouyang and Cullen O'Keefe and Jakub Pachocki and Alex Paino and Joe Palermo and Ashley Pantuliano and Giambattista Parascandolo and Joel Parish and Emy Parparita and Alex Passos and Mikhail Pavlov and Andrew Peng and Adam Perelman and Filipe de Avila Belbute Peres and Michael Petrov and Henrique Ponde de Oliveira Pinto and Michael and Pokorny and Michelle Pokrass and Vitchyr H. Pong and Tolly Powell and Alethea Power and Boris Power and Elizabeth Proehl and Raul Puri and Alec Radford and Jack Rae and Aditya Ramesh and Cameron Raymond and Francis Real and Kendra Rimbach and Carl Ross and Bob Rotsted and Henri Roussez and Nick Ryder and Mario Saltarelli and Ted Sanders and Shibani Santurkar and Girish Sastry and Heather Schmidt and David Schnurr and John Schulman and Daniel Selsam and Kyla Sheppard and Toki Sherbakov and Jessica Shieh and Sarah Shoker and Pranav Shyam and Szymon Sidor and Eric Sigler and Maddie Simens and Jordan Sitkin and Katarina Slama and Ian Sohl and Benjamin Sokolowsky and Yang Song and Natalie Staudacher and Felipe Petroski Such and Natalie Summers and Ilya Sutskever and Jie Tang and Nikolas Tezak and Madeleine B. Thompson and Phil Tillet and Amin Tootoonchian and Elizabeth Tseng and Preston Tuggle and Nick Turley and Jerry Tworek and Juan Felipe Cer\u00f3n Uribe and Andrea Vallone and Arun Vijayvergiya and Chelsea Voss and Carroll Wainwright and Justin Jay Wang and Alvin Wang and Ben Wang and Jonathan Ward and Jason Wei and CJ Weinmann and Akila Welihinda and Peter Welinder and Jiayi Weng and Lilian Weng and Matt Wiethoff and Dave Willner and Clemens Winter and Samuel Wolrich and Hannah Wong and Lauren Workman and Sherwin Wu and Jeff Wu and Michael Wu and Kai Xiao and Tao Xu and Sarah Yoo and Kevin Yu and Qiming Yuan and Wojciech Zaremba and Rowan Zellers and Chong Zhang and Marvin Zhang and Shengjia Zhao and Tianhao Zheng and Juntang Zhuang and William Zhuk and Barret Zoph",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2303.08774",
+        "tags": []
+    },
+    "chen2024springgraspsynthesizingcompliantdexterous": {
+        "type": "misc",
+        "title": "SpringGrasp: Synthesizing Compliant, Dexterous Grasps under Shape Uncertainty",
+        "author": "Sirui Chen and Jeannette Bohg and C. Karen Liu",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2404.13532",
+        "tags": []
+    },
+    "tse2023s2contactgraphbasednetwork3d": {
+        "type": "misc",
+        "title": "S$^2$Contact: Graph-based Network for 3D Hand-Object Contact Estimation with Semi-Supervised Learning",
+        "author": "Tze Ho Elden Tse and Zhongqun Zhang and Kwang In Kim and Ales Leonardis and Feng Zheng and Hyung Jin Chang",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2208.00874",
+        "tags": []
+    },
+    "10689328": {
+        "type": "ARTICLE",
+        "title": "GraspDiff: Grasping Generation for Hand-Object Interaction With Multimodal Guided Diffusion",
+        "author": "Zuo, Binghui and Zhao, Zimeng and Sun, Wenqian and Yuan, Xiaohan and Yu, Zhipeng and Wang, Yangang",
+        "year": "2024",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "doi": "10.1109/TVCG.2024.3466190",
+        "url": "",
+        "tags": []
+    },
+    "lipman2023flowmatchinggenerativemodeling": {
+        "type": "misc",
+        "title": "Flow Matching for Generative Modeling",
+        "author": "Yaron Lipman and Ricky T. Q. Chen and Heli Ben-Hamu and Maximilian Nickel and Matt Le",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2210.02747",
+        "tags": []
+    },
+    "ho2020denoisingdiffusionprobabilisticmodels": {
+        "type": "misc",
+        "title": "Denoising Diffusion Probabilistic Models",
+        "author": "Jonathan Ho and Ajay Jain and Pieter Abbeel",
+        "year": "2020",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2006.11239",
+        "tags": []
+    },
+    "pmlr-v9-ross10a": {
+        "type": "InProceedings",
+        "title": "Efficient Reductions for Imitation Learning",
+        "author": "Ross, Stephane and Bagnell, Drew",
+        "year": "2010",
+        "journal": "Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics",
+        "doi": "",
+        "url": "https://proceedings.mlr.press/v9/ross10a.html",
+        "tags": []
+    },
+    "pmlr-v205-wu23a": {
+        "type": "InProceedings",
+        "title": "Learning Generalizable Dexterous Manipulation from Human Grasp Affordance",
+        "author": "Wu, Yueh-Hua and Wang, Jiashun and Wang, Xiaolong",
+        "year": "2023",
+        "journal": "Proceedings of The 6th Conference on Robot Learning",
+        "doi": "",
+        "url": "https://proceedings.mlr.press/v205/wu23a.html",
+        "tags": []
+    },
+    "luo2024graspingdiverseobjectssimulated": {
+        "type": "misc",
+        "title": "Grasping Diverse Objects with Simulated Humanoids",
+        "author": "Zhengyi Luo and Jinkun Cao and Sammy Christen and Alexander Winkler and Kris Kitani and Weipeng Xu",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2407.11385",
+        "tags": []
+    },
+    "chen2025vividexlearningvisionbaseddexterous": {
+        "type": "misc",
+        "title": "ViViDex: Learning Vision-based Dexterous Manipulation from Human Videos",
+        "author": "Zerui Chen and Shizhe Chen and Etienne Arlaud and Ivan Laptev and Cordelia Schmid",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2404.15709",
+        "tags": []
+    },
+    "christen2022dgrasp": {
+        "type": "inproceedings",
+        "title": "D-Grasp: Physically Plausible Dynamic Grasp Synthesis for Hand-Object Interactions",
+        "author": "Christen, Sammy and Kocabas, Muhammed and Aksan, Emre and Hwangbo, Jemin and Song, Jie and Hilliges, Otmar",
+        "year": "2022",
+        "journal": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "10.1109/CVPR52688.2022.01992",
+        "url": "",
+        "tags": []
+    },
+    "Lu_2024": {
+        "type": "inbook",
+        "title": "UGG: Unified Generative Grasping",
+        "author": "Lu, Jiaxin and Kang, Hao and Li, Haoxiang and Liu, Bo and Yang, Yiding and Huang, Qixing and Hua, Gang",
+        "year": "2024",
+        "journal": "Computer Vision \u2013 ECCV 2024",
+        "doi": "",
+        "url": "http://dx.doi.org/10.1007/978-3-031-72855-6_24",
+        "tags": []
+    },
+    "wang2025unigrasptransformersimplifiedpolicydistillation": {
+        "type": "misc",
+        "title": "UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping",
+        "author": "Wenbo Wang and Fangyun Wei and Lei Zhou and Xi Chen and Lin Luo and Xiaohan Yi and Yizhong Zhang and Yaobo Liang and Chang Xu and Yan Lu and Jiaolong Yang and Baining Guo",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2412.02699",
+        "tags": []
+    },
+    "yuan2024crossembodimentdexterousgraspingreinforcement": {
+        "type": "misc",
+        "title": "Cross-Embodiment Dexterous Grasping with Reinforcement Learning",
+        "author": "Haoqi Yuan and Bohan Zhou and Yuhui Fu and Zongqing Lu",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2410.02479",
+        "tags": []
+    },
+    "lum2024dextrahg": {
+        "type": "inproceedings",
+        "title": "Dextr{AH",
+        "author": "Tyler Ga Wei Lum and Martin Matak and Viktor Makoviychuk and Ankur Handa and Arthur Allshire and Tucker Hermans and Nathan D. Ratliff and Karl Van Wyk",
+        "year": "2024",
+        "journal": "8th Annual Conference on Robot Learning",
+        "doi": "",
+        "url": "https://openreview.net/forum?id=S2Jwb0i7HN",
+        "tags": []
+    },
+    "singh2024handobjectinteractionpretrainingvideos": {
+        "type": "misc",
+        "title": "Hand-Object Interaction Pretraining from Videos",
+        "author": "Himanshu Gaurav Singh and Antonio Loquercio and Carmelo Sferrazza and Jane Wu and Haozhi Qi and Pieter Abbeel and Jitendra Malik",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2409.08273",
+        "tags": []
+    },
+    "bank2021autoencoders": {
+        "type": "misc",
+        "title": "Autoencoders",
+        "author": "Dor Bank and Noam Koenigstein and Raja Giryes",
+        "year": "2021",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2003.05991",
+        "tags": []
+    },
+    "ciocarlie2009hand": {
+        "type": "article",
+        "title": "Hand posture subspaces for dexterous robotic grasping",
+        "author": "Ciocarlie, Matei T and Allen, Peter K",
+        "year": "2009",
+        "journal": "The International Journal of Robotics Research",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "zhang2020robotic": {
+        "type": "article",
+        "title": "Robotic grasp detection based on image processing and random forest",
+        "author": "Zhang, Jiahao and Li, Miao and Feng, Ying and Yang, Chenguang",
+        "year": "2020",
+        "journal": "Multimedia Tools and Applications",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "moudgal1994rule": {
+        "type": "article",
+        "title": "Rule-based control for a flexible-link robot",
+        "author": "Moudgal, Vivek G and Passino, Kevin M and Yurkovich, Stephen",
+        "year": "1994",
+        "journal": "IEEE transactions on control systems technology",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "shaw2022videodexlearningdexterityinternet": {
+        "type": "misc",
+        "title": "VideoDex: Learning Dexterity from Internet Videos",
+        "author": "Kenneth Shaw and Shikhar Bahl and Deepak Pathak",
+        "year": "2022",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2212.04498",
+        "tags": []
+    },
+    "9515637": {
+        "type": "INPROCEEDINGS",
+        "title": "Inverse reinforcement learning for dexterous hand manipulation",
+        "author": "Orbik, Jedrzej and Agostini, Alejandro and Lee, Dongheui",
+        "year": "2021",
+        "journal": "2021 IEEE International Conference on Development and Learning (ICDL)",
+        "doi": "10.1109/ICDL49984.2021.9515637",
+        "url": "",
+        "tags": []
+    },
+    "batzianoulisIRL": {
+        "type": "article",
+        "title": "Customizing skills for assistive robotic manipulators, an inverse reinforcement learning approach with error-related potentials",
+        "author": "Batzianoulis, Iason and Iwane, Fumiaki and Wei, Shupeng and Correia, Carolina and Chavarriaga, Ricardo and Millan, Jose del R. and Billard, Aude",
+        "year": "2021",
+        "journal": "Communications Biology",
+        "doi": "10.1038/s42003-021-02891-8",
+        "url": "",
+        "tags": []
+    },
+    "kumar2022graphinversereinforcementlearning": {
+        "type": "misc",
+        "title": "Graph Inverse Reinforcement Learning from Diverse Videos",
+        "author": "Sateesh Kumar and Jonathan Zamora and Nicklas Hansen and Rishabh Jangir and Xiaolong Wang",
+        "year": "2022",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2207.14299",
+        "tags": []
+    },
+    "naranjoExpertTrajectoryIRL": {
+        "type": "article",
+        "title": "Expert-Trajectory-Based Features for Apprenticeship Learning via Inverse Reinforcement Learning for Robotic Manipulation",
+        "author": "Naranjo-Campos, Francisco and Victores, Juan and Balaguer, Carlos",
+        "year": "2024",
+        "journal": "Applied Sciences",
+        "doi": "10.3390/app142311131",
+        "url": "",
+        "tags": []
+    },
+    "Chen_2023": {
+        "type": "article",
+        "title": "Visual dexterity: In-hand reorientation of novel and complex object shapes",
+        "author": "Chen, Tao and Tippur, Megha and Wu, Siyang and Kumar, Vikash and Adelson, Edward and Agrawal, Pulkit",
+        "year": "2023",
+        "journal": "Science Robotics",
+        "doi": "",
+        "url": "http://dx.doi.org/10.1126/scirobotics.adc9244",
+        "tags": []
+    },
+    "rajeswaran2018learningcomplexdexterousmanipulation": {
+        "type": "misc",
+        "title": "Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations",
+        "author": "Aravind Rajeswaran and Vikash Kumar and Abhishek Gupta and Giulia Vezzani and John Schulman and Emanuel Todorov and Sergey Levine",
+        "year": "2018",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1709.10087",
+        "tags": []
+    },
+    "nair2021awacacceleratingonlinereinforcement": {
+        "type": "misc",
+        "title": "AWAC: Accelerating Online Reinforcement Learning with Offline Datasets",
+        "author": "Ashvin Nair and Abhishek Gupta and Murtaza Dalal and Sergey Levine",
+        "year": "2021",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2006.09359",
+        "tags": []
+    },
+    "dasari2023learningdexterousmanipulationexemplar": {
+        "type": "misc",
+        "title": "Learning Dexterous Manipulation from Exemplar Object Trajectories and Pre-Grasps",
+        "author": "Sudeep Dasari and Abhinav Gupta and Vikash Kumar",
+        "year": "2023",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2209.11221",
+        "tags": []
+    },
+    "srinivasan2024dexmots": {
+        "type": "InProceedings",
+        "title": "DexMOTS: Learning Contact-Rich Dexterous Manipulation in an Object-Centric Task Space with Differentiable Simulation",
+        "author": "Srinivasan, Krishnan and Heiden, Eric and Ng, Ian and Bohg, Jeannette and Garg, Animesh",
+        "year": "2024",
+        "journal": "International Symposium of Robotics Research (ISRR)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "HUANG1995235": {
+        "type": "incollection",
+        "title": "17 - A Multi-sensor Approach for Grasping and 3D Interaction",
+        "author": "Zhiyong Huang and Ronan Boulic and Nadia Magnenat Thalmann and Daniel Thalmann",
+        "year": "1995",
+        "journal": "Computer Graphics",
+        "doi": "https://doi.org/10.1016/B978-0-12-227741-2.50021-9",
+        "url": "https://www.sciencedirect.com/science/article/pii/B9780122277412500219",
+        "tags": []
+    },
+    "li2014learning": {
+        "type": "inproceedings",
+        "title": "Learning object-level impedance control for robust grasping and dexterous manipulation",
+        "author": "Li, Miao and Yin, Hang and Tahara, Kenji and Billard, Aude",
+        "year": "2014",
+        "journal": "2014 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "li2021optimal": {
+        "type": "article",
+        "title": "Optimal grasp force for robotic grasping and in-hand manipulation with impedance control",
+        "author": "Li, Xiaoqing and Chen, Ziyu and Ma, Chao",
+        "year": "2021",
+        "journal": "Assembly Automation",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "tong2024improvinggeneralizingflowbasedgenerative": {
+        "type": "misc",
+        "title": "Improving and generalizing flow-based generative models with minibatch optimal transport",
+        "author": "Alexander Tong and Kilian Fatras and Nikolay Malkin and Guillaume Huguet and Yanlei Zhang and Jarrid Rector-Brooks and Guy Wolf and Yoshua Bengio",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2302.00482",
+        "tags": []
+    },
+    "tong2024simulationfreeschrodingerbridgesscore": {
+        "type": "misc",
+        "title": "Simulation-free Schr\\",
+        "author": "Alexander Tong and Nikolay Malkin and Kilian Fatras and Lazar Atanackovic and Yanlei Zhang and Guillaume Huguet and Guy Wolf and Yoshua Bengio",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2307.03672",
+        "tags": []
+    },
+    "sivakumar2022robotic": {
+        "type": "article",
+        "title": "Robotic telekinesis: Learning a robotic hand imitator by watching humans on youtube",
+        "author": "Sivakumar, Aravind and Shaw, Kenneth and Pathak, Deepak",
+        "year": "2022",
+        "journal": "arXiv preprint arXiv:2202.10448",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "khargonkar2024robotfingerprint": {
+        "type": "inproceedings",
+        "title": "RobotFingerPrint: Unified Gripper Coordinate Space for Multi-Gripper Grasp Synthesis and Transfer",
+        "author": "Khargonkar, Ninad and Casas, Luis Felipe and  and Prabhakaran, Balakrishnan and Xiang, Yu",
+        "year": "2024",
+        "journal": "arXiv preprint arXiv:2409.14519",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "lambeta2020digit": {
+        "type": "article",
+        "title": "Digit: A novel design for a low-cost compact high-resolution tactile sensor with application to in-hand manipulation",
+        "author": "Lambeta, Mike and Chou, Po-Wei and Tian, Stephen and Yang, Brian and Maloon, Benjamin and Most, Victoria Rose and Stroud, Dave and Santos, Raymond and Byagowi, Ahmad and Kammerer, Gregg and others",
+        "year": "2020",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "wu2024fastgrasp": {
+        "type": "article",
+        "title": "FastGrasp: Efficient Grasp Synthesis with Diffusion",
+        "author": "Wu, Xiaofei and Liu, Tao and Li, Caoji and Ma, Yuexin and Shi, Yujiao and He, Xuming",
+        "year": "2024",
+        "journal": "arXiv preprint arXiv:2411.14786",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "PlanningOptimalGrasps": {
+        "type": "INPROCEEDINGS",
+        "title": "Planning optimal grasps",
+        "author": "Ferrari, C. and Canny, J.",
+        "year": "1992",
+        "journal": "Proceedings 1992 IEEE International Conference on Robotics and Automation",
+        "doi": "10.1109/ROBOT.1992.219918",
+        "url": "",
+        "tags": []
+    },
+    "nichol2022pointegenerating3dpoint": {
+        "type": "misc",
+        "title": "Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+        "author": "Alex Nichol and Heewoo Jun and Prafulla Dhariwal and Pamela Mishkin and Mark Chen",
+        "year": "2022",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2212.08751",
+        "tags": []
+    },
+    "heusel2018ganstrainedtimescaleupdate": {
+        "type": "misc",
+        "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+        "author": "Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter",
+        "year": "2018",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1706.08500",
+        "tags": []
+    },
+    "chen2025dexonomysynthesizingdexterousgrasp": {
+        "type": "misc",
+        "title": "Dexonomy: Synthesizing All Dexterous Grasp Types in a Grasp Taxonomy",
+        "author": "Jiayi Chen and Yubin Ke and Lin Peng and He Wang",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2504.18829",
+        "tags": []
+    },
+    "lenz2015deep": {
+        "type": "article",
+        "title": "Deep Learning for Detecting Robotic Grasps",
+        "author": "Lenz, Ian and Lee, Honglak and Saxena, Ashutosh",
+        "year": "2015",
+        "journal": "The International Journal of Robotics Research (IJRR)",
+        "doi": "10.1177/0278364914549607",
+        "url": "https://journals.sagepub.com/doi/10.1177/0278364914549607",
+        "tags": []
+    },
+    "mahler2017dex": {
+        "type": "inproceedings",
+        "title": "{Dex-Net 2.0",
+        "author": "Mahler, Jeffrey and Liang, Jacky and Niyaz, Sherdil and Laskey, Michael and Doan, Richard and Liu, Xinyu and Aparicio Ojea, Juan and Goldberg, Ken",
+        "year": "2017",
+        "journal": "Robotics: Science and Systems (RSS)",
+        "doi": "10.15607/RSS.2017.XIII.056",
+        "url": "https://arxiv.org/abs/1703.09312",
+        "tags": []
+    },
+    "pinto2016supersizing": {
+        "type": "inproceedings",
+        "title": "Supersizing Self-Supervision: Learning to Grasp from 50k Tries and 700 Robot Hours",
+        "author": "Pinto, Lerrel and Gupta, Abhinav",
+        "year": "2016",
+        "journal": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "10.1109/ICRA.2016.7487517",
+        "url": "https://arxiv.org/abs/1509.06825",
+        "tags": []
+    },
+    "wu2020mat": {
+        "type": "inproceedings",
+        "title": "{MAT",
+        "author": "Wu, Bohan and Akinola, Iretiayo and Varley, Jacob and Allen, Peter K.",
+        "year": "2020",
+        "journal": "Conference on Robot Learning (CoRL)",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1909.04787",
+        "tags": []
+    },
+    "raffin2023openloop": {
+        "type": "article",
+        "title": "An Open-Loop Baseline for Reinforcement Learning Locomotion Tasks",
+        "author": "Raffin, Antonin and Sigaud, Olivier and Kober, Jens and Albu-Sch{\\",
+        "year": "2023",
+        "journal": "arXiv preprint arXiv:2310.05808",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2310.05808",
+        "tags": []
+    },
+    "morrison2018closing": {
+        "type": "inproceedings",
+        "title": "Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach",
+        "author": "Morrison, Douglas and Corke, Peter and Leitner, J{\\",
+        "year": "2018",
+        "journal": "Robotics: Science and Systems (RSS)",
+        "doi": "10.15607/RSS.2018.XIV.021",
+        "url": "https://arxiv.org/abs/1804.05172",
+        "tags": []
+    },
+    "garg2019learning": {
+        "type": "inproceedings",
+        "title": "Learning To Grasp Under Uncertainty Using POMDPs",
+        "author": "Garg, Nikhil P. and Hsu, David and Lee, Wee Sun",
+        "year": "2019",
+        "journal": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "10.1109/ICRA.2019.8793683",
+        "url": "https://motion.comp.nus.edu.sg/wp-content/uploads/2019/02/icra2019grasping.pdf",
+        "tags": []
+    },
+    "zhao2020noticing": {
+        "type": "article",
+        "title": "Noticing motion patterns: A temporal cnn with a novel convolution operator for human trajectory prediction",
+        "author": "Zhao, Dapeng and Oh, Jean",
+        "year": "2020",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "s22114196": {
+        "type": "Article",
+        "title": "Unknown Title",
+        "author": "Unknown Author",
+        "year": "Unknown Year",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "koyama2018high": {
+        "type": "article",
+        "title": "High-speed high-precision proximity sensor for detection of tilt, distance, and contact",
+        "author": "Koyama, Keisuke and Shimojo, Makoto and Senoo, Taku and Ishikawa, Masatoshi",
+        "year": "2018",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "hsiao2007contact": {
+        "type": "inproceedings",
+        "title": "Contact-Reactive Grasping of Objects with Partial Shape Information",
+        "author": "Hsiao, Kaijen and Kaelbling, Leslie Pack and Lozano-Perez, Tomas",
+        "year": "2007",
+        "journal": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "doi": "10.1109/IROS.2007.4399061",
+        "url": "https://people.csail.mit.edu/kjhsiao/webpagefiles/papers/contactreactive.pdf",
+        "tags": []
+    },
+    "jentoft2014limits": {
+        "type": "inproceedings",
+        "title": "Limits to Compliance and the Role of Tactile Sensing in Grasping",
+        "author": "Jentoft, Leif P. and Wan, Qian and Howe, Robert D.",
+        "year": "2014",
+        "journal": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "10.1109/ICRA.2014.6907803",
+        "url": "https://biorobotics.harvard.edu/pubs/2014/ref_conf/JentoftICRA2014_ContactRelative.pdf",
+        "tags": []
+    },
+    "pall2021analysis": {
+        "type": "inproceedings",
+        "title": "Analysis of Open-Loop Grasping From Piles",
+        "author": "P{\\'a",
+        "year": "2021",
+        "journal": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "10.1109/ICRA48506.2021.9561065",
+        "url": "https://ieeexplore.ieee.org/document/9561065",
+        "tags": []
+    },
+    "chenobject": {
+        "type": "inproceedings",
+        "title": "Object-Centric Dexterous Manipulation from Human Motion Data",
+        "author": "Chen, Yuanpei and Wang, Chen and Yang, Yaodong and Liu, Karen",
+        "year": "2024",
+        "journal": "8th Annual Conference on Robot Learning",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "chen2023sequential": {
+        "type": "article",
+        "title": "Sequential Dexterity: Chaining Dexterous Policies for Long-Horizon Manipulation",
+        "author": "Chen, Yuanpei and Wang, Chen and Fei-Fei, Li and Liu, C. Karen",
+        "year": "2023",
+        "journal": "arXiv preprint arXiv:2309.00987",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2309.00987",
+        "tags": []
+    },
+    "luo2024omnigrasp": {
+        "type": "inproceedings",
+        "title": "Grasping Diverse Objects with Simulated Humanoids",
+        "author": "Luo, Zhengyi and Cao, Jinkun and Christen, Sammy and Winkler, Alexander and Kitani, Kris and Xu, Weipeng",
+        "year": "2024",
+        "journal": "Advances in Neural Information Processing Systems (NeurIPS)",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2407.11385",
+        "tags": []
+    },
+    "Corona_2020_CVPR": {
+        "type": "InProceedings",
+        "title": "GanHand: Predicting Human Grasp Affordances in Multi-Object Scenes",
+        "author": "Corona, Enric and Pumarola, Albert and Alenya, Guillem and Moreno-Noguer, Francesc and Rogez, Gregory",
+        "year": "2020",
+        "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "feng2024dexgangraspdexterousgenerativeadversarial": {
+        "type": "misc",
+        "title": "DexGANGrasp: Dexterous Generative Adversarial Grasping Synthesis for Task-Oriented Manipulation",
+        "author": "Qian Feng and David S. Martinez Lema and Mohammadhossein Malmir and Hang Li and Jianxiang Feng and Zhaopeng Chen and Alois Knoll",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2407.17348",
+        "tags": []
+    },
+    "TactileDrivenGentleGrasping": {
+        "type": "misc",
+        "title": "Tactile-Driven Gentle Grasping for Human-Robot Collaborative Tasks",
+        "author": "Christopher J. Ford and Haoran Li and John Lloyd and Manuel G. Catalano and Matteo Bianchi and Efi Psomopoulou and Nathan F. Lepora",
+        "year": "2023",
+        "journal": "Proceedings of ICRA",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "shi2025vmfcontactuncertaintyawareevidentiallearning": {
+        "type": "misc",
+        "title": "vMF-Contact: Uncertainty-aware Evidential Learning for Probabilistic Contact-grasp in Noisy Clutter",
+        "author": "Yitian Shi and Edgar Welte and Maximilian Gilles and Rania Rayyes",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2411.03591",
+        "tags": []
+    },
+    "r\u00f6stel2025composingdextrousgraspinginhand": {
+        "type": "misc",
+        "title": "Composing Dextrous Grasping and In-hand Manipulation via Scoring with a Reinforcement Learning Critic",
+        "author": "Lennart R\u00f6stel and Dominik Winkelbauer and Johannes Pitz and Leon Sievers and Berthold B\u00e4uml",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2505.13253",
+        "tags": []
+    },
+    "stracquadanio2025bringgraspgeneratorleveraging": {
+        "type": "misc",
+        "title": "Bring Your Own Grasp Generator: Leveraging Robot Grasp Generation for Prosthetic Grasping",
+        "author": "Giuseppe Stracquadanio and Federico Vasile and Elisa Maiettini and Nicol\u00f2 Boccardo and Lorenzo Natale",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2503.00466",
+        "tags": []
+    },
+    "zhang2025roletactilesensinglearning": {
+        "type": "misc",
+        "title": "The Role of Tactile Sensing for Learning Reach and Grasp",
+        "author": "Boya Zhang and Iris Andrussow and Andreas Zell and Georg Martius",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2502.20367",
+        "tags": []
+    },
+    "wu2025tacdiffusionforcedomaindiffusionpolicy": {
+        "type": "misc",
+        "title": "TacDiffusion: Force-domain Diffusion Policy for Precise Tactile Manipulation",
+        "author": "Yansong Wu and Zongxie Chen and Fan Wu and Lingyun Chen and Liding Zhang and Zhenshan Bing and Abdalla Swikir and Sami Haddadin and Alois Knoll",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2409.11047",
+        "tags": []
+    },
+    "wang2025thisthatlanguagegesturecontrolledvideo": {
+        "type": "misc",
+        "title": "This&That: Language-Gesture Controlled Video Generation for Robot Planning",
+        "author": "Boyang Wang and Nikhil Sridhar and Chao Feng and Mark Van der Merwe and Adam Fishman and Nima Fazeli and Jeong Joon Park",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2407.05530",
+        "tags": []
+    },
+    "wang2025implicitphysicsawarepolicydynamic": {
+        "type": "misc",
+        "title": "Implicit Physics-aware Policy for Dynamic Manipulation of Rigid Objects via Soft Body Tools",
+        "author": "Zixing Wang and Ahmed H. Qureshi",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2502.05696",
+        "tags": []
+    },
+    "raei2025reinforcementlearningapproachnonprehensile": {
+        "type": "misc",
+        "title": "A Reinforcement Learning Approach to Non-prehensile Manipulation through Sliding",
+        "author": "Hamidreza Raei and Elena De Momi and Arash Ajoudani",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2502.17221",
+        "tags": []
+    },
+    "gao2024primescaffoldingmanipulationtasks": {
+        "type": "misc",
+        "title": "PRIME: Scaffolding Manipulation Tasks with Behavior Primitives for Data-Efficient Imitation Learning",
+        "author": "Tian Gao and Soroush Nasiriany and Huihan Liu and Quantao Yang and Yuke Zhu",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2403.00929",
+        "tags": []
+    },
+    "chen2025adaptivegraspingmovingobjects": {
+        "type": "misc",
+        "title": "Adaptive Grasping of Moving Objects in Dense Clutter via Global-to-Local Detection and Static-to-Dynamic Planning",
+        "author": "Hao Chen and Takuya Kiyokawa and Weiwei Wan and Kensuke Harada",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2502.05916",
+        "tags": []
+    },
+    "patel2024getzero": {
+        "type": "inproceedings",
+        "title": "{GET-Zero",
+        "author": "Austin Patel and Shuran Song",
+        "year": "2025",
+        "journal": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "qi2025simplecomplexskillscase": {
+        "type": "article",
+        "title": "From Simple to Complex Skills: The Case of In-Hand Object Reorientation",
+        "author": "Qi, Haozhi and Yi, Brent and Lambeta, Mike and Ma, Yi and Calandra, Roberto and Malik, Jitendra",
+        "year": "2025",
+        "journal": "arXiv preprint arXiv:2501.05439",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "siciliano2010robotics": {
+        "type": "book",
+        "title": "Robotics: Modelling, Planning and Control",
+        "author": "Siciliano, Bruno and Sciavicco, Lorenzo and Villani, Luigi and Oriolo, Giuseppe",
+        "year": "2010",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "spong2006robotics": {
+        "type": "book",
+        "title": "Robot Modeling and Control",
+        "author": "Spong, Mark W. and Hutchinson, Seth and Vidyasagar, M.",
+        "year": "2006",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "yuan2017gelsight": {
+        "type": "article",
+        "title": "GelSight: High-resolution robot tactile sensors for estimating geometry and force",
+        "author": "Yuan, Wenzhen and Dong, Shaoxiong and Adelson, Edward H",
+        "year": "2017",
+        "journal": "Sensors",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "church2022digit": {
+        "type": "article",
+        "title": "Tactile perception in robotic manipulation",
+        "author": "Church, Alex and Lloyd, John and Hadsell, Raia and Lepora, Nathan F",
+        "year": "2022",
+        "journal": "Nature Reviews Electrical Engineering",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "Lee_2024": {
+        "type": "article",
+        "title": "DexTouch: Learning to Seek \\& Manipulate Objects With Tactile Dexterity",
+        "author": "Kang-Won Lee and Yuzhe Qin and Xiaolong Wang and Soo-Chul Lim",
+        "year": "2024",
+        "journal": "IEEE Robotics and Automation Letters",
+        "doi": "10.1109/LRA.2024.3478571",
+        "url": "http://dx.doi.org/10.1109/LRA.2024.3478571",
+        "tags": []
+    },
+    "Zhang2025": {
+        "type": "misc",
+        "title": "The Role of Tactile Sensing for Learning Reach and Grasp",
+        "author": "Boya Zhang and Iris Andrussow and Andreas Zell and Georg Martius",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2502.20367",
+        "tags": []
+    },
+    "10552075": {
+        "type": "ARTICLE",
+        "title": "Learning Generalizable Vision-Tactile Robotic Grasping Strategy for Deformable Objects via Transformer",
+        "author": "Han, Yunhai and Yu, Kelin and Batra, Rahul and Boyd, Nathan and Mehta, Chaitanya and Zhao, Tuo and She, Yu and Hutchinson, Seth and Zhao, Ye",
+        "year": "2025",
+        "journal": "IEEE/ASME Transactions on Mechatronics",
+        "doi": "10.1109/TMECH.2024.3400789",
+        "url": "",
+        "tags": []
+    },
+    "wang2025unigrasptransformer": {
+        "type": "InProceedings",
+        "title": "UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping",
+        "author": "Wang, Wenbo and Wei, Fangyun and Zhou, Lei and Chen, Xi and Luo, Lin and Yi, Xiaohan and Zhang, Yizhong and Liang, Yaobo and Xu, Chang and Lu, Yan and Yang, Jiaolong and Guo, Baining",
+        "year": "2025",
+        "journal": "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "qin2022dexpoint": {
+        "type": "InProceedings",
+        "title": "DexPoint: Generalizable Point Cloud Reinforcement Learning for Sim-to-Real Dexterous Manipulation",
+        "author": "Qin, Yuzhe and Huang, Binghao and Yin, Zhao-Heng and Su, Hao and Wang, Xiaolong",
+        "year": "2023",
+        "journal": "Proceedings of The 6th Conference on Robot Learning",
+        "doi": "",
+        "url": "https://proceedings.mlr.press/v205/qin23a.html",
+        "tags": []
+    },
+    "dexmimicgen": {
+        "type": "inproceedings",
+        "title": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
+        "author": "Jiang, Zhenyu and Xie, Yuqi and Lin, Kevin and Xu, Zhenjia and Wan, Weikang and Mandlekar, Ajay and Fan, Linxi and Zhu, Yuke",
+        "year": "2025",
+        "journal": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "chen2022dextransfer": {
+        "type": "misc",
+        "title": "DexTransfer: Real World Multi\u2010fingered Dexterous Grasping with Minimal Human Demonstrations",
+        "author": "Chen, Zoey Qiuyu and Van\u2009Wyk, Karl and Chao, Yu\u2010Wei and Yang, Wei and Mousavian, Arsalan and Gupta, Abhishek and Fox, Dieter",
+        "year": "2022",
+        "journal": "Unknown Source",
+        "doi": "10.48550/arXiv.2209.14284",
+        "url": "https://arxiv.org/abs/2209.14284",
+        "tags": []
+    },
+    "gao2025must": {
+        "type": "misc",
+        "title": "MuST: Multi-Head Skill Transformer for Long-Horizon Dexterous Manipulation with Skill Progress",
+        "author": "Gao, Kai and Wang, Fan and Aduh, Erica and Randle, Dylan and Shi, Jane",
+        "year": "2025",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2502.02753",
+        "tags": []
+    },
+    "dong2024rtagrasplearningtaskorientedgrasping": {
+        "type": "inproceedings",
+        "title": "RTAGrasp: Learning Task-Oriented Grasping from Human Videos via Retrieval, Transfer, and Alignment",
+        "author": "Dong, Wenlong and Huang, Dehao and Liu, Jiangshan and Tang, Chao and Zhang, Hong",
+        "year": "2025",
+        "journal": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "allievi2024lie": {
+        "type": "inproceedings",
+        "title": "Reinforcement Learning with Lie-Group Orientations for Robotics",
+        "author": "Allievi, Alessandro G and Neumann, Gerhard",
+        "year": "2025",
+        "journal": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "schuck2025rl": {
+        "type": "InProceedings",
+        "title": "Reinforcement Learning with Lie Group Orientations for Robotics",
+        "author": "Schuck, Martin and Br{\\",
+        "year": "2025",
+        "journal": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "florence2022implicit": {
+        "type": "InProceedings",
+        "title": "Implicit Behavioral Cloning",
+        "author": "Florence, Pete and Lynch, Corey and Zeng, Andy and Ramirez, Oscar A and Wahid, Ayzaan and Downs, Laura and Wong, Adrian and Lee, Johnny and Mordatch, Igor and Tompson, Jonathan",
+        "year": "2022",
+        "journal": "Proceedings of the 5th Conference on Robot Learning",
+        "doi": "",
+        "url": "https://proceedings.mlr.press/v164/florence22a.html",
+        "tags": []
+    },
+    "shafiullah2022transformer": {
+        "type": "inproceedings",
+        "title": "Behavior transformers: cloning k modes with one stone",
+        "author": "Shafiullah, Nur Muhammad (Mahi) and Cui, Ziehen Jeff and Altanzaya, Ariuntuya and Pinto, Lerrel",
+        "year": "2022",
+        "journal": "Proceedings of the 36th International Conference on Neural Information Processing Systems",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "VisualIRL2025": {
+        "type": "misc",
+        "title": "Visual IRL for Human-Like Robotic Manipulation",
+        "author": "Ehsan Asali and Prashant Doshi",
+        "year": "2024",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/2412.11360",
+        "tags": []
+    },
+    "mandlekar2018roboturk": {
+        "type": "inproceedings",
+        "title": "Roboturk: A crowdsourcing platform for robotic skill learning through imitation",
+        "author": "Mandlekar, Ajay and Zhu, Yuke and Garg, Animesh and Booher, Jonathan and Spero, Max and Tung, Albert and Gao, Julian and Emmons, John and Gupta, Anchit and Orbay, Emre and others",
+        "year": "2018",
+        "journal": "Conference on Robot Learning",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "Chen_2023_CVPR": {
+        "type": "InProceedings",
+        "title": "SeqTrack: Sequence to Sequence Learning for Visual Object Tracking",
+        "author": "Chen, Xin and Peng, Houwen and Wang, Dong and Lu, Huchuan and Hu, Han",
+        "year": "2023",
+        "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "chi2023diffusion": {
+        "type": "article",
+        "title": "Diffusion policy: Visuomotor policy learning via action diffusion",
+        "author": "Chi, Cheng and Xu, Zhenjia and Feng, Siyuan and Cousineau, Eric and Du, Yilun and Burchfiel, Benjamin and Tedrake, Russ and Song, Shuran",
+        "year": "2023",
+        "journal": "The International Journal of Robotics Research",
+        "doi": "",
+        "url": "",
+        "tags": []
+    },
+    "kalashnikov2018qtoptscalabledeepreinforcement": {
+        "type": "misc",
+        "title": "QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation",
+        "author": "Dmitry Kalashnikov and Alex Irpan and Peter Pastor and Julian Ibarz and Alexander Herzog and Eric Jang and Deirdre Quillen and Ethan Holly and Mrinal Kalakrishnan and Vincent Vanhoucke and Sergey Levine",
+        "year": "2018",
+        "journal": "Unknown Source",
+        "doi": "",
+        "url": "https://arxiv.org/abs/1806.10293",
+        "tags": []
+    }
+}

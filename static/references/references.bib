@@ -1,0 +1,339 @@
+Tags:
+-Representation
+#CM
+#PP
+#OR
+#CG
+-Backbone Architecture
+#TR
+#DI
+#AE
+#OA
+-Optimization and Training Schemes
+#ML
+#FI
+#EB
+-Benchmarking
+#Chamfer
+#ContactD
+#ContactR
+#MPJPE
+#MRRPE
+#SuccessR
+#SimDisp
+#Q1
+#PenDist
+#InterPenVol
+#FID
+#Diversity
+#Qual
+
+// -> comments
+// #CM - Contact Map Based, #PP - Parameter Based, #OR - Other Representations, #CG - Conditioning Representations
+// #TR - Transformer, #DI - Diffusion, #AE - Autoencoder, #OA - Other Architectures
+// #ML - Metrics as Losses, #FI - Filters and Discriminators, #EB - Energy Based Methods
+//Various Benchmarking Metrics
+
+//GraspPapers
+
+@misc{RegionGrasp,
+      title={RegionGrasp: A Novel Task for Contact Region Controllable Hand Grasp Generation}, 
+      author={Yilin Wang and Chuan Guo and Li Cheng and Hai Jiang},
+      year={2024},
+      eprint={2410.07995},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.07995}, 
+} #CM,#PP,#CG,#AE,#ML,#SimDisp,#Diversity,#ContactR,#InterPenVol,#Qual
+
+@misc{NL2Contact,
+      title={NL2Contact: Natural Language Guided 3D Hand-Object Contact Modeling with Diffusion Model}, 
+      author={Zhongqun Zhang and Hengfei Wang and Ziwei Yu and Yihua Cheng and Angela Yao and Hyung Jin Chang},
+      year={2024},
+      eprint={2407.12727},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.12727}, 
+} #CM,#PP,#CG,#DI,#TR,#ML,#MPJPE,#InterPenvol,#Diversity,#SimDisp,#Diversity,#ContactR,#Qual
+
+@misc{ContactOpt,
+      title={ContactOpt: Optimizing Contact to Improve Grasps}, 
+      author={Patrick Grady and Chengcheng Tang and Christopher D. Twigg and Minh Vo and Samarth Brahmbhatt and Charles C. Kemp},
+      year={2021},
+      eprint={2104.07267},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2104.07267}, 
+} #CM,#OR,#ML,#InterPenVol,#MPJPE,#ContactR,#ContactD,#Qual
+
+@misc{Hand-ObjectContactConsistency,
+      title={Hand-Object Contact Consistency Reasoning for Human Grasps Generation}, 
+      author={Hanwen Jiang and Shaowei Liu and Jiashun Wang and Xiaolong Wang},
+      year={2021},
+      eprint={2104.03304},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2104.03304}, 
+} #CM,#PP,#AE,#ML,#PenDist,#InterPenVol,#SimDisp,#Qual,#ContactR,#ContactD
+
+@misc{GrainGrasp,
+      title={GrainGrasp: Dexterous Grasp Generation with Fine-grained Contact Guidance}, 
+      author={Fuqiang Zhao and Dzmitry Tsetserukou and Qian Liu},
+      year={2024},
+      eprint={2405.09310},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2405.09310}, 
+} #CM,#CG,#AE,#EB,#InterPenVol,#PenDist,#SimDisp,#SuccessR,#Qual
+
+@misc{ContactGen,
+      title={ContactGen: Generative Contact Modeling for Grasp Generation}, 
+      author={Shaowei Liu and Yang Zhou and Jimei Yang and Saurabh Gupta and Shenlong Wang},
+      year={2023},
+      eprint={2310.03740},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2310.03740}, 
+} #CM,#AE,#ML,#Chamfer,#InterPenVol,#ContactR,#SimDisp,#Diversity,#Qual
+
+@INPROCEEDINGS{ContactGrasp,
+  author={Brahmbhatt, Samarth and Handa, Ankur and Hays, James and Fox, Dieter},
+  booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={ContactGrasp: Functional Multi-finger Grasp Synthesis from Contact}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={2386-2393},
+  keywords={},
+  doi={10.1109/IROS40897.2019.8967960},
+  url={https://arxiv.org/abs/1904.03754},
+} #CM,#OA,#ML,#FI,#ContactD,#Qual
+
+@misc{GenDexGrasp,
+      title={GenDexGrasp: Generalizable Dexterous Grasping}, 
+      author={Puhao Li and Tengyu Liu and Yuyang Li and Yiran Geng and Yixin Zhu and Yaodong Yang and Siyuan Huang},
+      year={2023},
+      eprint={2210.00722},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2210.00722}, 
+} #CM,#AE,#ML,#EB,#SuccessR,#Diversity
+
+@misc{UniDexGrasp,
+      title={UniDexGrasp: Universal Robotic Dexterous Grasping via Learning Diverse Proposal Generation and Goal-Conditioned Policy}, 
+      author={Yinzhen Xu and Weikang Wan and Jialiang Zhang and Haoran Liu and Zikang Shan and Hao Shen and Ruicheng Wang and Haoran Geng and Yijia Weng and Jiayi Chen and Tengyu Liu and Li Yi and He Wang},
+      year={2023},
+      eprint={2303.00938},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2303.00938}, 
+} #CM,#PP,OA,#ML,Q1,#InterPenVol,#Diversity
+
+@inproceedings{RealDex, series={IJCAI-2024},
+   title={RealDex: Towards Human-like Grasping for Robotic Dexterous Hand},
+   url={http://dx.doi.org/10.24963/ijcai.2024/758},
+   DOI={10.24963/ijcai.2024/758},
+   booktitle={Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence},
+   publisher={International Joint Conferences on Artificial Intelligence Organization},
+   author={Liu, Yumeng and Yang, Yaxun and Wang, Youzhuo and Wu, Xiaofei and Wang, Jiamin and Yao, Yichen and Schwertfeger, Sören and Yang, Sibei and Wang, Wenping and Yu, Jingyi and He, Xuming and Ma, Yuexin},
+   year={2024},
+   month=aug, pages={6859–6867},
+   collection={IJCAI-2024} 
+} #CM,#AE,#ML,#FI,#InterPenVol,#PenDist,#SimDisp,#SimDisp,#MPJPE,#Qual
+
+@misc{DexGraspNet,
+      title={DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation}, 
+      author={Ruicheng Wang and Jialiang Zhang and Jiayi Chen and Yinzhen Xu and Puhao Li and Tengyu Liu and He Wang},
+      year={2023},
+      eprint={2210.02697},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2210.02697}, 
+} #PP,#EB,#FI,#Q1,#SuccessR,#PenDist
+
+@misc{DexGraspDiffusion,
+      title={DexGrasp-Diffusion: Diffusion-based Unified Functional Grasp Synthesis Method for Multi-Dexterous Robotic Hands}, 
+      author={Zhengshen Zhang and Lei Zhou and Chenchen Liu and Zhiyang Liu and Chengran Yuan and Sheng Guo and Ruiteng Zhao and Marcelo H. Ang Jr. and Francis EH Tay},
+      year={2024},
+      eprint={2407.09899},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2407.09899}, 
+} #PP,#DI,#FI,#SuccessR,#SimDisp,#Diversity,#PenDist
+
+@misc{SceneDiffuser,
+      title={Diffusion-based Generation, Optimization, and Planning in 3D Scenes}, 
+      author={Siyuan Huang and Zan Wang and Puhao Li and Baoxiong Jia and Tengyu Liu and Yixin Zhu and Wei Liang and Song-Chun Zhu},
+      year={2023},
+      eprint={2301.06015},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2301.06015}, 
+} #PP,#DI,#SuccessR,#Diversity,#PenDist
+
+@misc{DexDiffuser,
+      title={DexDiffuser: Generating Dexterous Grasps with Diffusion Models}, 
+      author={Zehang Weng and Haofei Lu and Danica Kragic and Jens Lundell},
+      year={2024},
+      eprint={2402.02989},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2402.02989}, 
+} #PP,#DI,#ML,#FI,#SuccessR,#Diversity,#PenDist
+
+@ARTICLE{DexTOG,
+  author={Zhang, Jieyi and Xu, Wenqiang and Yu, Zhenjun and Xie, Pengfei and Tang, Tutian and Lu, Cewu},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={DexTOG: Learning Task-Oriented Dexterous Grasp With Language Condition}, 
+  year={2025},
+  volume={10},
+  number={2},
+  pages={995-1002},
+  keywords={Grasping;Robots;Planning;Grippers;Vectors;Three-dimensional displays;Noise reduction;Engines;Noise;Diffusion processes;Deep learning in grasping and manipulation;dexterous manipulation},
+  doi={10.1109/LRA.2024.3518116},
+  url={https://ieeexplore.ieee.org/document/10803020},
+} #PP,#CG,#DI,#FI,#Q1,#SuccessR,#Diversity,#PenDist
+
+@misc{Text2Grasp,
+      title={Text2Grasp: Grasp synthesis by text prompts of object grasping parts}, 
+      author={Xiaoyun Chang and Yi Sun},
+      year={2024},
+      eprint={2404.15189},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2404.15189}, 
+} #PP,#CG,#DI,#TR,#ML,#PenDist,#InterPenVol,#SimDisp,#Diversity
+
+@misc{MultiGraspLLM,
+      title={Multi-GraspLLM: A Multimodal LLM for Multi-Hand Semantic Guided Grasp Generation}, 
+      author={Haosheng Li and Weixin Mao and Weipeng Deng and Chenyu Meng and Haoqiang Fan and Tiancai Wang and Ping Tan and Hongan Wang and Xiaoming Deng},
+      year={2024},
+      eprint={2412.08468},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2412.08468}, 
+} #PP,#CG,#TR,#Chamfer,#PenDist,#SuccessR,#Q1
+
+@misc{GraspAsYouSay,
+      title={Grasp as You Say: Language-guided Dexterous Grasp Generation}, 
+      author={Yi-Lin Wei and Jian-Jian Jiang and Chengyi Xing and Xian-Tuo Tan and Xiao-Ming Wu and Hao Li and Mark Cutkosky and Wei-Shi Zheng},
+      year={2024},
+      eprint={2405.19291},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2405.19291}, 
+} #PP,#CG,#TR,#ML,#FID,#SuccessR,#Q1,#PenDist,#Diversity,#ContactD
+
+@misc{SemGrasp,
+      title={SemGrasp: Semantic Grasp Generation via Language Aligned Discretization}, 
+      author={Kailin Li and Jingbo Wang and Lixin Yang and Cewu Lu and Bo Dai},
+      year={2024},
+      eprint={2404.03590},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2404.03590}, 
+} #PP,#CG,#AE,#TR,#PenDist,#InterPenVol,#SimpDisp,#FID,#Qual
+
+@misc{GHOP,
+      title={G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis}, 
+      author={Yufei Ye and Abhinav Gupta and Kris Kitani and Shubham Tulsiani},
+      year={2024},
+      eprint={2404.12383},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2404.12383}, 
+} #PP,#OR,#DI,#ML,#Chamfer,#MPJPE,#InterPenVol,#PenDist,#SimDisp,#ContactR,#Qual,#Diversity
+
+
+@misc{GraspingField,
+      title={Grasping Field: Learning Implicit Representations for Human Grasps}, 
+      author={Korrawe Karunratanakul and Jinlong Yang and Yan Zhang and Michael Black and Krikamol Muandet and Siyu Tang},
+      year={2020},
+      eprint={2008.04451},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2008.04451},
+
+} #OR,#AE,#ML,#InterPenVol,#PenDist,#ContactR,#SimDisp,#Chamfer,#Qual,#MPJPE,#MRRPE
+
+@misc{DROGrasp,
+      title={D(R, O) Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping}, 
+      author={Zhenyu Wei and Zhixuan Xu and Jingxiang Guo and Yiwen Hou and Chongkai Gao and Zhehao Cai and Jiayu Luo and Lin Shao},
+      year={2024},
+      eprint={2410.01702},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2410.01702}, 
+} #OR,#AE,#TR,#ML,#SuccessR,#Diversity
+
+@INPROCEEDINGS{TowardHumanLikeSem,
+  author={Zhu, Tianqiang and Wu, Rina and Lin, Xiangbo and Sun, Yi},
+  booktitle={2021 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
+  title={Toward Human-Like Grasp: Dexterous Grasping via Semantic Representation of Object-Hand}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={15721-15731},
+  keywords={Computer vision;Codes;Annotations;Computational modeling;Semantics;Grasping;Data models;Vision for robotics and autonomous vehicles},
+  doi={10.1109/ICCV48922.2021.01545},
+  url={https://openaccess.thecvf.com/content/ICCV2021/papers/Zhu_Toward_Human-Like_Grasp_Dexterous_Grasping_via_Semantic_Representation_of_Object-Hand_ICCV_2021_paper.pdf},
+} #CM,#PP,#CG,#OA,#ML,#Qual
+
+@ARTICLE{FunctionalGrasp,
+  author={Zhang, Yibiao and Hang, Jinglue and Zhu, Tianqiang and Lin, Xiangbo and Wu, Rina and Peng, Wanli and Tian, Dongying and Sun, Yi},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={FunctionalGrasp: Learning Functional Grasp for Robots via Semantic Hand-Object Representation}, 
+  year={2023},
+  volume={8},
+  number={5},
+  pages={3094-3101},
+  keywords={Codes;Robots;Semantics;Thumb;Task analysis;Annotations;Grippers;Functional grasp synthesis;dexterous multifingered hand;hand-object interaction representation},
+  doi={10.1109/LRA.2023.3264760},
+  url={https://ieeexplore.ieee.org/document/10093013},
+} #CM,#CG,#PP,#OA,#ML,#SuccessR
+
+@article{DiffForceClosure,
+   title={Synthesizing Diverse and Physically Stable Grasps With Arbitrary Hand Structures Using Differentiable Force Closure Estimator},
+   volume={7},
+   ISSN={2377-3774},
+   url={http://dx.doi.org/10.1109/LRA.2021.3129138},
+   DOI={10.1109/lra.2021.3129138},
+   number={1},
+   journal={IEEE Robotics and Automation Letters},
+   publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+   author={Liu, Tengyu and Liu, Zeyu and Jiao, Ziyuan and Zhu, Yixin and Zhu, Song-Chun},
+   year={2022},
+   month=jan, pages={470–477} 
+} #PP,#EB,#SuccessR,#Diversity
+
+//Other Refs
+
+@INPROCEEDINGS{PlanningOptimalGrasps,
+  author={Ferrari, C. and Canny, J.},
+  booktitle={Proceedings 1992 IEEE International Conference on Robotics and Automation}, 
+  title={Planning optimal grasps}, 
+  year={1992},
+  volume={},
+  number={},
+  pages={2290-2295 vol.3},
+  keywords={Grippers;Robots;Fingers;Extraterrestrial measurements;Orbital robotics;Actuators;Manipulators;Grasping;Assembly systems;Computer science},
+  doi={10.1109/ROBOT.1992.219918}}
+
+@misc{nichol2022pointegenerating3dpoint,
+      title={Point-E: A System for Generating 3D Point Clouds from Complex Prompts}, 
+      author={Alex Nichol and Heewoo Jun and Prafulla Dhariwal and Pamela Mishkin and Mark Chen},
+      year={2022},
+      eprint={2212.08751},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2212.08751}, 
+}
+@misc{heusel2018ganstrainedtimescaleupdate,
+      title={GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium}, 
+      author={Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter},
+      year={2018},
+      eprint={1706.08500},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/1706.08500}, 
+}
