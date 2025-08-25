@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="A Survey on Dexterous Robot Grasping">
+  <meta name="keywords" content="Grasp Synthesis, Robot Dexterous Grasping, Grasping Survey">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Survey on Dexterous Robot Grasping</title>
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/robotic-hand.png">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  
+  <script src="./static/js/index.js"></script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    
+      /* -----  Data that drives the radar chart  ----- */
+      const paradigmData = {
+        openloop: {  // Open-Loop Execution
+          title: 'Open-Loop Execution',
+          description: 'Trajectory fully pre-planned offline.',
+          strength:  'Fast, cheap at runtime.',
+          weakness:  'Brittle – no feedback.',
+          scores:    [2, 1, 1, 9, 1]
+        },
+        reactive: {  // Reactive Control
+          title: 'Reactive Control',
+          description: 'Event-driven corrections using simple sensor triggers.',
+          strength: 'Handles known disturbances.',
+          weakness: 'Fails on unseen events.',
+          scores:   [4, 3, 2, 6, 3]
+        },
+        modelbased: { // Model-Based Feedback
+          title: 'Model-Based Feedback',
+          description: 'MPC / impedance controllers with analytic dynamics.',
+          strength: 'Graceful under uncertainty.',
+          weakness: 'Needs accurate dynamics model; heavy computation.',
+          scores:   [7, 5, 3, 9, 7]
+        },
+        rl: {         // Reinforcement Learning
+          title: 'Reinforcement Learning',
+          description: 'Trial-and-error reward maximization.',
+          strength: 'Finds novel, highly robust strategies; excellent generalization.',
+          weakness: 'Very sample- and compute-hungry.',
+          scores:   [8, 9, 2, 3, 9]
+        },
+        il: {         // Imitation Learning
+          title: 'Imitation Learning',
+          description: 'Mimics expert demonstrations.',
+          strength: 'Extremely sample-efficient; quick to deploy.',
+          weakness: 'Ceiling set by expert quality; moderate runtime cost.',
+          scores:   [6, 7, 9, 2, 5]
+        }
+      };
+
+    
+      const labels = ['Robustness','Generalization','Sample Efficiency','Model Reliance','Computational Cost'];
+    
+      /* -----  Build the radar plot  ----- */
+      const datasets = Object.keys(paradigmData).map((k, i) => {
+        const palette = [
+          'rgba(255,99,132,.2)', 'rgba(255,159,64,.2)',
+          'rgba(255,205,86,.2)', 'rgba(75,192,192,.2)',
+          'rgba(54,162,235,.2)'
+        ];
+        const border  = palette[i].replace('.2', '1');
+        return {
+          label: paradigmData[k].title,
+          data: paradigmData[k].scores,
+          fill: true,
+          backgroundColor: palette[i],
+          borderColor: border,
+          pointBackgroundColor: border,
+          hidden: i !== 0     // Show only first by default
+        };
+      });
+    
+      const ctx = document.getElementById('paradigmChart').getContext('2d');
+      const paradigmChart = new Chart(ctx, {
+        type: 'radar',
+        data: { labels, datasets },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { r: { min:0, max:10, ticks:{ stepSize:2 } } },
+          plugins: { legend: { display:false } }
+        }
+      });
+    
+      /* -----  Button interactions  ----- */
+      const details = document.getElementById('paradigm-details');
+      const buttons = document.querySelectorAll('.paradigm-btn');
+    
+      function renderDetails(key) {
+        const d = paradigmData[key];
+        details.innerHTML = `
+          <h3 class="title is-4 has-text-link-dark mb-2">${d.title}</h3>
+          <p class="mb-3">${d.description}</p>
+          <p><strong>Key Strength:</strong> ${d.strength}</p>
+          <p><strong>Primary Limitation:</strong> ${d.weakness}</p>`;
+      }
+    
+      buttons.forEach((btn, idx) => {
+        btn.addEventListener('click', () => {
+          const k = btn.dataset.paradigm;
+    
+          // Toggle button look
+          buttons.forEach(b=>b.classList.remove('bg-sky-700','text-white','active'));
+          btn.classList.add('bg-sky-700','text-white','active');
+    
+          // Show the matching dataset
+          paradigmChart.data.datasets.forEach((ds,i)=>ds.hidden = i !== idx);
+          paradigmChart.update();
+    
+          renderDetails(k);
+        });
+      });
+    
+      // Initialise with Open-Loop selected
+      buttons[0].click();
+    });
+    </script>
+
+
+  <script>
+    document.querySelectorAll('.section-fade').forEach(sec=>{
+      sec.style.opacity = 0;             // start hidden
+      const io = new IntersectionObserver(([e])=>{
+        if (e.isIntersecting){           // fade when 10% visible
+          e.target.style.transition = 'opacity .6s ease-out, transform .6s ease-out';
+          e.target.style.opacity   = 1;
+          e.target.style.transform = 'translateY(0)';
+          io.unobserve(e.target);
+        }
+      },{threshold:.1});
+      sec.style.transform = 'translateY(25px)';
+      io.observe(sec);
+    });
+    </script>
+  
+
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    #mindmapContainer { width: 100; height: 800; padding:5% }
+    #mindmap { width: 100%; height: 1000px; border: 5px solid #ddd; padding:0%}
+    /*  Toggle-button behaviour for the checkboxes  */
+    .tag-toggle { display:none; }
+
+    #toggleTags label {
+      transition: background .25s, color .25s;
+    }
+
+    #toggleTags .tag-toggle:checked + span,
+    #toggleTags label.is-active {          /* fallback for JS toggle */
+      background-color: hsl(var(--bulma-link-h-l), var(--bulma-link-s-l), 48%);
+      color:#a50707;
+      font-weight:800;
+    }
+    /* Bigger & bolder ↑ / ↓ symbols in the Benchmarking table */
+    #benchmarking td.has-text-success,
+    #benchmarking td.has-text-danger {
+      font-size: 1.4rem;   /* adjust to taste */
+      font-weight: 700;    /* bold */
+      line-height: 1;      /* keeps the cell height tight */
+    }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="">
+            Language Conditioned Grasp Syntheis With Flow Models
+          </a>
+          <a class="navbar-item" href="">
+            Image to Grasp to Reorient - Teacher Student Distillatiion
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Survey on Dexterous Robot Grasping</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="">Hrishit Leen*,
+                Kunal Aneja*,
+                Chetan Reddy,
+                Priyadarshini Tamilselvan,
+                Sri Siddarth Chakaravarthy,
+                Nhi Nguyen,
+                Jeremy Collins,
+                Miroslav Bogdanovic,
+                Animesh Garg
+              </span>
+
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">PAIR Lab</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/pairlab/GraspEval"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/pairlab/GraspEval"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This paper presents a comprehensive survey of deep learning approaches for dexterous robotic grasping, emphasizing recent progress enabled by multi-modal models and data-driven techniques. These developments have enabled the generation and execution of stable, context-aware grasps that can be conditioned on natural language, generalize across robot embodiments, and perform effectively in real-world settings. We organize our survey into three parts: (1) <strong>Datasets</strong>, the foundation for data-driven approaches, covering large-scale efforts that support learning-based grasping; (2) <strong>Grasp Synthesis</strong>, including diverse representation methods, generative modeling, and optimization-based techniques; and (3) <strong>Grasp Execution</strong>, encompassing reinforcement learning, imitation learning, heuristic control, and hybrid frameworks that translate grasps into executable actions. We also examine existing benchmarks and metrics for evaluating grasp plausibility, stability, and task alignment. We identify persistent challenges that bottleneck progress and discuss promising future directions to guide researchers toward building more general-purpose, robust dexterous manipulation systems.</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+
+<!-- Citation Graph --------------------------------------------->
+<section id="citation-graph" class="section">
+  <div class="container is-max-desktop">
+    <div class="box">
+
+      <!-- Heading -->
+      <h2 class="title is-3 has-text-centered mb-4">Graph of Citations</h2>
+
+      <!-- Tag toggles -->
+      <div id="toggleTags"
+           class="buttons is-centered is-flex-wrap-wrap mb-5">
+
+        <label class="button is-light is-rounded m-1">
+          <input type="checkbox" name="Representation" class="tag-toggle sr-only">
+          <span>Representation</span>
+        </label>
+
+        <label class="button is-light is-rounded m-1">
+          <input type="checkbox" name="Backbone Architecture" class="tag-toggle sr-only">
+          <span>Backbone&nbsp;Architectures</span>
+        </label>
+
+        <label class="button is-light is-rounded m-1">
+          <input type="checkbox" name="Optimization and Training" class="tag-toggle sr-only">
+          <span>Optimization&nbsp;/ Training</span>
+        </label>
+
+        <label class="button is-light is-rounded m-1">
+          <input type="checkbox" name="Benchmarks" class="tag-toggle sr-only">
+          <span>Benchmarks</span>
+        </label>
+      </div>
+
+      <!-- Vis-network canvas -->
+      <div id="mindmap" style="width:100%; height:600px;"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Datasets Section -->
+<section id="datasets" class="section has-background-light section-fade">
+  <div class="container is-max-desktop">
+    <div class="box">
+      <h2 class="title is-3 has-text-centered mb-4">Grasp Datasets</h2>
+      <p class="has-text-centered mb-6">A summary of key dexterous grasping datasets, highlighting their source, scale, and unique features.</p>
+      
+      <div class="table-container">
+        <table class="table is-fullwidth is-striped is-hoverable">
+          <thead>
+            <tr>
+              <th>Dataset (Year)</th>
+              <th>Type</th>
+              <th>Hand</th>
+              <th>#Objects</th>
+              <th>#Grasps/Data</th>
+              <th>Modalities</th>
+              <th>Eval. Annotations</th>
+              <th>Unique Features</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>DexGraspNet (2022)</td>
+              <td>Sim</td>
+              <td>ShadowHand</td>
+              <td>5,355</td>
+              <td>1.32M grasps</td>
+              <td>None (poses only)</td>
+              <td>Force-closure (optimized)</td>
+              <td>Very large simulated dataset; validated via an Isaac Gym checker</td>
+            </tr>
+            <tr>
+              <td>DexGrasp Anything (2024)</td>
+              <td>Hybrid (Real+Sim)</td>
+              <td>ShadowHand (+ human)</td>
+              <td>15,698</td>
+              <td>3.40M grasps</td>
+              <td>Meshes, 6-DOF poses</td>
+              <td>Force closure, penetration</td>
+              <td>Largest-to-date dexterous dataset; curated and physics-expanded</td>
+            </tr>
+            <tr>
+              <td>RealDex (2024)</td>
+              <td>Real</td>
+              <td>ShadowHand</td>
+              <td>52</td>
+              <td>~59K grasps</td>
+              <td>RGB-D (multi-view)</td>
+              <td>Human annotation (quality)</td>
+              <td>Teleoperated dexterity; multi-view capture; human-like patterns</td>
+            </tr>
+            <tr>
+              <td>MultiDex (2023)</td>
+              <td>Sim</td>
+              <td>ShadowHand</td>
+              <td>58</td>
+              <td>16K grasps</td>
+              <td>None</td>
+              <td>Optimized grasps</td>
+              <td>Small-scale high-quality set for dexterous pre-training</td>
+            </tr>
+            <tr>
+              <td>UniDexGrasp (2023)</td>
+              <td>Sim</td>
+              <td>ShadowHand</td>
+              <td>5,519</td>
+              <td>1.12M grasps</td>
+              <td>None</td>
+              <td>Optimized grasps</td>
+              <td>Million-scale dataset; 200+ grasps per object</td>
+            </tr>
+            <tr>
+              <td>GRAB (2020)</td>
+              <td>Real</td>
+              <td>Human (MANO retarget)</td>
+              <td>51</td>
+              <td>1.64M grasps</td>
+              <td>RGB-D (multi-view)</td>
+              <td>Human grasp labels</td>
+              <td>Real human grasps; learn hand–object interactions</td>
+            </tr>
+            <tr>
+              <td>HO3D (2021)</td>
+              <td>Real</td>
+              <td>Human (MANO)</td>
+              <td>10</td>
+              <td>77K frames</td>
+              <td>RGB-D (hand+object)</td>
+              <td>6D hand+object poses</td>
+              <td>Egocentric videos; synchronized 6D pose annotations</td>
+            </tr>
+            <tr>
+              <td>DexYCB (2021)</td>
+              <td>Real</td>
+              <td>Human (MANO)</td>
+              <td>20</td>
+              <td>582K frames</td>
+              <td>RGB-D</td>
+              <td>6D hand+object poses</td>
+              <td>Multi-camera capture; dense annotations</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- right after your table, inside the same .box or right under it -->
+    <div class="is-flex is-justify-content-center mt-5">
+      <figure class="image"
+              style="max-width:80%; border:2px solid #dbdbdb; border-radius:8px;">
+        <img src="./static/images/HandsFigure_Horizontal.png"
+            alt="Visual overview of key dexterous-grasp datasets"
+            style="width:100%; height:auto; display:block;">
+        <figcaption class="has-text-centered is-size-7 mt-2">
+          <em>Figure – Dataset coverage at a glance.</em>
+        </figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+<!-- Centered overview image -->
+
+
+
+<!-- Grasp Synthesis Section -->
+<section class="section" id="synthesis">
+  <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Grasp Synthesis</h2>
+      <p class="subtitle is-5 has-text-centered">Methods for generating grasp candidates from object and task information.</p>
+      
+      <!-- Grasp Representation -->
+      <div class="mb-6">
+          <h3 class="title is-4 has-text-centered mb-5">Grasp Representation</h3>
+          <div class="columns is-centered is-variable is-3-tablet is-8-desktop">
+              <div class="column is-one-third-desktop is-half-tablet">
+                  <div class="card p-4">
+                      <h4 class="title is-5 has-text-centered">Contact Maps</h4>
+                      <div class="card-content content is-small"><ul><li>Use heatmaps to show contact regions.</li><li>Guides subsequent grasp optimization.</li></ul></div>
+                      <div class="card-diagram p-4 h-48 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 text-red-500" fill="none" viewBox="0 0 64 64" stroke-width="2.5" stroke="currentColor"><path d="M32 54a22 22 0 100-44 22 22 0 000 44z"/><path d="M32 46a14 14 0 100-28 14 14 0 000 28z" class="text-red-400"/><path d="M32 38a6 6 0 100-12 6 6 0 000 12z" class="text-red-300"/></svg></div>
+                  </div>
+              </div>
+              <div class="column is-one-third-desktop is-half-tablet">
+                  <div class="card p-4">
+                      <h4 class="title is-5 has-text-centered">Hand Parameters</h4>
+                      <div class="card-content content is-small"><ul><li>Directly predict pose and joint angles.</li><li>Reduces output space for faster training.</li></ul></div>
+                      <div class="card-diagram p-4 h-48 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 text-sky-500" fill="none" viewBox="0 0 64 64" stroke-width="2.5" stroke="currentColor"><path d="M20 50V38c0-2.21.9-4.21 2.34-5.66A8 8 0 0128 30h8c2.21 0 4.21.9 5.66 2.34A8 8 0 0144 38v12M28 22l-8-8M36 22l8-8M28 30v-8M36 30v-8" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 10h16v4H24z"/></svg></div>
+                  </div>
+              </div>
+              <div class="column is-one-third-desktop is-half-tablet">
+                  <div class="card p-4">
+                      <h4 class="title is-5 has-text-centered">Geometric</h4>
+                      <div class="card-content content is-small"><ul><li>Embeds object geometry into the model.</li><li>Uses SDFs or point cloud distances.</li></ul></div>
+                      <div class="card-diagram p-4 h-48 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 text-green-500" fill="none" viewBox="0 0 64 64" stroke-width="2.5" stroke="currentColor"><path d="M32 46a14 14 0 100-28 14 14 0 000 28z"/><path d="M12 52L22 42M52 12L42 22M12 12l10 10M52 52L42 42" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+</div>
+     <section id="paradigms" class="section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered mb-4">
+          Grasp Execution Paradigms
+        </h2>
+        <p class="has-text-centered mb-6">
+          Grasp execution strategies fall into two main families: classical
+          methods that rely on explicit models and rules, and learning-based
+          methods that acquire skills from data. Click a button to compare
+          them on the interactive chart.
+        </p>
+    
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Left pane –––––––––––––––––––––––––––––––––––––––––– -->
+            <div>
+              <!-- Paradigm selector buttons -->
+              <div class="flex flex-wrap justify-center gap-2 mb-6">
+                <button class="paradigm-btn px-4 py-2 text-sm font-semibold bg-slate-200 text-slate-700 rounded-full" data-paradigm="openloop">Open-Loop</button>
+                <button class="paradigm-btn px-4 py-2 text-sm font-semibold bg-slate-200 text-slate-700 rounded-full" data-paradigm="reactive">Reactive</button>
+                <button class="paradigm-btn px-4 py-2 text-sm font-semibold bg-slate-200 text-slate-700 rounded-full" data-paradigm="modelbased">Model-Based</button>
+                <button class="paradigm-btn px-4 py-2 text-sm font-semibold bg-emerald-100 text-emerald-800 rounded-full" data-paradigm="rl">Reinforcement Learning</button>
+                <button class="paradigm-btn px-4 py-2 text-sm font-semibold bg-emerald-100 text-emerald-800 rounded-full" data-paradigm="il">Imitation Learning</button>
+              </div>
+    
+              <!-- Radar chart -->
+              <div class="chart-container" style="position:relative;width:100%;max-width:600px;height:350px;margin:auto;">
+                <canvas id="paradigmChart"></canvas>
+              </div>
+            </div>
+    
+            <!-- Right pane –––––––––––––––––––––––––––––––––––––––––– -->
+            <div id="paradigm-details" class="p-4 bg-slate-50 rounded-lg border">
+              <!-- Filled by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+<!-- =====================================================
+     BENCHMARKING (white box, black text)
+     ===================================================== -->
+     <section id="benchmarking" class="section-fade">
+      <div class="container is-max-desktop">
+        <div class="box bg-white text-black">
+    
+          <!-- ----------  Header  ---------- -->
+          <h2 class="title is-3 has-text-centered mb-4">What makes a good Grasp? Metrics and Evaluation</h2>
+          <p class="has-text-centered mb-6">
+            Commonly‑used metrics for <em>stability</em>, <em>accuracy</em>,
+            <em>task‑alignment</em>, and <em>diversity</em> in dexterous grasping.
+          </p>
+    
+          <!-- ----------  Metric Table  ---------- -->
+          <div class="table-container">
+            <table class="table is-fullwidth is-striped text-sm">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Metric</th>
+                  <th>Description (incl. formula)</th>
+                  <th class="has-text-centered">Goal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Stability & Plausibility -->
+                <tr>
+                  <td rowspan="3" class="is-vcentered">Stability &amp; Plausibility</td>
+                  <td>Simulation&nbsp;Success&nbsp;Rate</td>
+                  <td>% of grasps that stay stable in a physics engine under gravity &amp; disturbances.</td>
+                  <td class="has-text-centered has-text-success">↑</td>
+                </tr>
+                <tr>
+                  <td>Q<sub>1</sub> / Epsilon&nbsp;Quality</td>
+                  <td>Radius of the largest ball in the grasp‑wrench space:
+                    <span class="is-size-7">
+                    \[ Q_1 = \max\bigl\{r\;|\;\{w: \|w\|\le r\}\subset W\bigr\} \]
+                    </span>
+                  </td>
+                  <td class="has-text-centered has-text-success">↑</td>
+                </tr>
+                <tr>
+                  <td>Penetration&nbsp;Vol./Dist.</td>
+                  <td>Overlap between hand &amp; object meshes.
+                    <span class="is-size-7">
+                    \[ PD(H,O)=\max_{x\in H\cap O} d(x),\quad
+                       V_{\text{int}}=\text{Vol}(H\cap O) \]
+                    </span>
+                  </td>
+                  <td class="has-text-centered has-text-danger">↓</td>
+                </tr>
+                <!-- Dataset Accuracy -->
+                <tr>
+                  <td rowspan="2" class="is-vcentered">Dataset Accuracy</td>
+                  <td>Chamfer&nbsp;Distance (CD)</td>
+                  <td>Point‑cloud distance
+                    <span class="is-size-7">
+                    \[ \tfrac1n\sum_{x\in X}\!\min_{y\in Y}\|x-y\|^2 +
+                       \tfrac1m\sum_{y\in Y}\!\min_{x\in X}\|y-x\|^2 \]
+                    </span>
+                  </td>
+                  <td class="has-text-centered has-text-danger">↓</td>
+                </tr>
+                <tr>
+                  <td>MPJPE / MRRPE</td>
+                  <td>Pose error for MANO / human hands.
+                    <span class="is-size-7">
+                    \[ \text{MPJPE}=\tfrac1K\sum_{k}\| (\hat J^k-\hat J^r)-(J^k-J^r)\|_2 \]
+                    </span>
+                  </td>
+                  <td class="has-text-centered has-text-danger">↓</td>
+                </tr>
+                <!-- Task Alignment -->
+                <tr>
+                  <td rowspan="2" class="is-vcentered">Task Alignment</td>
+                  <td>Fréchet Inception Dist.</td>
+                  <td>Distributional gap between generated &amp; reference grasps (images or 3‑D).</td>
+                  <td class="has-text-centered has-text-danger">↓</td>
+                </tr>
+                <tr>
+                  <td>LLM / VLM Score</td>
+                  <td>Vision‑or‑language‑model rating of grasp ↔ prompt consistency.</td>
+                  <td class="has-text-centered has-text-success">↑</td>
+                </tr>
+                <!-- Diversity -->
+                <tr>
+                  <td>Diversity</td>
+                  <td>Std.&nbsp;Dev. of Joint Angles</td>
+                  <td>Variation of generated grasps for a single input.</td>
+                  <td class="has-text-centered has-text-success">↑</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+    
+          <p class="is-size-7 has-text-centered mt-3">
+            ↑ higher&nbsp;is&nbsp;better &nbsp;|&nbsp; ↓ lower&nbsp;is&nbsp;better
+          </p>
+    
+        </div><!-- /.box -->
+      </div>
+    
+      <!-- MathJax (load once if not already present) -->
+      <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </section>
+    
+<!-- =====================================================
+     COMMON REWARD FUNCTIONS (white box, black text)
+     ===================================================== -->
+     <section id="rewards" class="section-fade">
+      <div class="container is-max-desktop">
+        <div class="box bg-white text-black">
+    
+          <!-- ----------  Header  ---------- -->
+          <h2 class="title is-3 has-text-centered mb-4">
+            Common Reward Components in Dexterous Manipulation
+          </h2>
+          <p class="has-text-centered mb-6">
+            Typical shaping terms used in reinforcement-learning or optimization-based
+            grasp controllers.  All rewards are <em>maximized</em>.
+          </p>
+    
+          <!-- ----------  Reward Table  ---------- -->
+          <div class="table-container">
+            <table class="table is-fullwidth is-striped text-sm">
+              <thead>
+                <tr>
+                  <th>Reward&nbsp;Type</th>
+                  <th>Purpose</th>
+                  <th>Example&nbsp;Formulation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Approach --------------------------------------------------- -->
+                <tr>
+                  <td>Approach</td>
+                  <td>Move hand toward demonstrated pre-grasp pose</td>
+                  <td>
+                    <span class="is-size-7">
+                      \[
+                        r_{\text{approach}} =
+                          -\bigl\|\hat{\mathbf p}_{\text{pre}}-\mathbf p_{\text{hand}}\bigr\|_2,
+                          \qquad
+                          \text{if } \|\cdot\| &gt; 0.2
+                      \]
+                    </span>
+                  </td>
+                </tr>
+    
+                <!-- Pre-grasp imitation ---------------------------------------- -->
+                <tr>
+                  <td>Pre-grasp&nbsp;Imitation</td>
+                  <td>Align hand pose with a demonstrated pre-grasp</td>
+                  <td>
+                    <span class="is-size-7">
+                      \[
+                        r_{\text{pre}} = -
+                        \bigl(\|\mathbf p-\hat{\mathbf p}\|_2 + \| \mathbf q-\hat{\mathbf q}\|_2\bigr)
+                      \]
+                    </span>
+                  </td>
+                </tr>
+    
+                <!-- Trajectory following --------------------------------------- -->
+                <tr>
+                  <td>Trajectory&nbsp;Following</td>
+                  <td>Track a desired object trajectory after grasp</td>
+                  <td>
+                    <span class="is-size-7">
+                      \[
+                        r_{\text{obj}} = -
+                        \bigl\|\mathbf x_{\text{obj}} - \mathbf x_{\text{target}}\bigr\|_2,
+                        \qquad t \ge \lambda
+                      \]
+                    </span>
+                  </td>
+                </tr>
+    
+                <!-- Contact reward --------------------------------------------- -->
+                <tr>
+                  <td>Contact</td>
+                  <td>Ensure multi-finger contact with the object</td>
+                  <td>
+                    <span class="is-size-7">
+                      \[
+                        r_{\text{contact}} =
+                        \mathbf 1[\text{thumb} + 2\ \text{fingers contact}]
+                      \]
+                    </span>
+                  </td>
+                </tr>
+    
+                <!-- Force reward ----------------------------------------------- -->
+                <tr>
+                  <td>Force</td>
+                  <td>Encourage proper force distribution on graspable surfaces</td>
+                  <td>
+                    <span class="is-size-7">
+                      Weighted&nbsp;sum of contact forces on graspable<br>
+                      vs.&nbsp;non-graspable regions
+                    </span>
+                  </td>
+                </tr>
+    
+                <!-- Lift reward ------------------------------------------------- -->
+                <tr>
+                  <td>Lift</td>
+                  <td>Promote upward motion of the grasped object</td>
+                  <td>
+                    <span class="is-size-7">
+                      \[
+                        r_{\text{lift}} = z_{\text{obj}} - z_{\text{goal}}
+                      \]
+                    </span>
+                  </td>
+                </tr>
+    
+                <!-- Anatomical / regularization -------------------------------- -->
+                <tr>
+                  <td>Anatomical&nbsp;&amp; Reg.</td>
+                  <td>Maintain joint limits and smooth motions</td>
+                  <td>
+                    <span class="is-size-7">
+                      Penalties on joint-limit violations and high velocities
+                    </span>
+                  </td>
+                </tr>
+    
+                <!-- Success bonus ---------------------------------------------- -->
+                <tr>
+                  <td>Success&nbsp;Bonus</td>
+                  <td>Reward on final task completion</td>
+                  <td>
+                    <span class="is-size-7">
+                      \[
+                        r_{\text{success}} =
+                        \mathbf 1[\text{goal reached}] \times b
+                      \]
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div><!-- /.table-container -->
+        </div><!-- /.box -->
+      </div>
+    
+      <!-- MathJax (load once if not already present) -->
+      <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </section>
+    
+
+<section class="section has-background-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Evaluating Grasps</h2>
+        <!-- GitHub call-to-action -->
+        <a  href="https://github.com/pairlab/GraspEval"
+            target="_blank"
+            class="button is-link is-medium is-rounded px-5">
+          <span class="icon"><i class="fab fa-github"></i></span>
+          <span><strong>Full&nbsp;Evaluation&nbsp;Pipeline&nbsp;↗</strong></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@{ADD HERE}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">source code</a> 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
